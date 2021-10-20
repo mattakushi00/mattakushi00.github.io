@@ -1,0 +1,50 @@
+
+/* stylelint-disable */
+
+.btn {
+    display: inline-block;
+    padding: 20px 70px;
+    margin-top: 70px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    background: rgb(252,143,0);
+    background: linear-gradient(180deg, rgba(252,143,0,1) 0%, rgba(204,55,2,1) 100%);
+    animation: btn 2s linear infinite;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+        text-decoration: none;
+        transform: scale(.98);
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        margin-top: 30px;
+        font-size: 18px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@keyframes btn {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(1.1);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

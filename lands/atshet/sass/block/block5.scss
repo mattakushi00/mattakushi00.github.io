@@ -1,0 +1,69 @@
+
+.block5 {
+    padding-right: 650px;
+}
+
+.block5__title {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 70px;
+    color: #fe8f00;
+    text-transform: uppercase;
+    font-family: "Aetherius", serif;
+    line-height: 1;
+
+    mark {
+        display: block;
+        text-transform: none;
+        font-size: 105px;
+        color: #fff;
+        font-family: "VeraCrouz", serif;
+    }
+}
+
+.block5__body {
+    p {
+        font-size: 21px;
+        font-weight: 500;
+        color: #fff;
+
+        mark {
+            font-weight: 900;
+            color: #fe8f00;
+        }
+
+        & + p {
+            margin-top: 15px;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .block5 {
+        padding-right: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .block5 {
+        padding-right: 0;
+    }
+
+    .block5__title {
+        font-size: 58px;
+
+        mark {
+            font-size: 74px;
+        }
+    }
+
+    .block5__btn {
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .block5__title mark {
+        font-size: 58px;
+    }
+}

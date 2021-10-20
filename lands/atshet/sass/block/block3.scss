@@ -1,0 +1,92 @@
+
+.block3__title {
+    max-width: 900px;
+    margin-bottom: 30px;
+    font-size: 70px;
+    color: #fe8f00;
+    text-transform: uppercase;
+    font-family: "Aetherius", serif;
+    line-height: 1;
+
+    mark {
+        display: block;
+        text-transform: none;
+        font-size: 105px;
+        color: #fff;
+        font-family: "VeraCrouz", serif;
+    }
+}
+
+.block3__description {
+    margin-bottom: 60px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 21px;
+}
+
+.block3__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block3__item {
+    padding: 40px;
+    width: calc(33.333% - 15px);
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(142,60,19);
+    background: linear-gradient(150deg, rgba(142,60,19,1) 0%, rgba(50,40,82,1) 100%);
+
+    & > p {
+        font-size: 18px;
+        color: #fff;
+
+        b {
+            margin-top: 10px;
+            display: block;
+            font-weight: 900;
+        }
+    }
+}
+
+.block3__name {
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    p {
+        color: #fe8f00;
+    }
+}
+
+@media (max-width: 1280px) {
+    .block3__item {
+        padding: 30px 15px;
+    }
+
+    .block3__name {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .block3__item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .block3__title {
+        font-size: 36px;
+
+        mark {
+            font-size: 60px;
+        }
+    }
+
+    .block3__description {
+        margin-bottom: 30px;
+    }
+}
