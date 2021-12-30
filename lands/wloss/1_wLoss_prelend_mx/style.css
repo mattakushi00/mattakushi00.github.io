@@ -597,7 +597,8 @@ figcaption {
 .comment .comment-content .comm-img {
     display: flex;
     align-items: flex-start;
-    width: 60%;
+    width: 100%;
+    max-width: 600px;
     margin: 10px 0;
 }
 
