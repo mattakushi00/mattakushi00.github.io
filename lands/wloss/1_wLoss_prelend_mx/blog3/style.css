@@ -513,7 +513,12 @@ figcaption {
     }
 
     .result__img {
-        height: 150px;
+        height: 200px;
+    }
+
+    .result__img img {
+        object-fit: contain;
+        object-position: center;
     }
 }
 

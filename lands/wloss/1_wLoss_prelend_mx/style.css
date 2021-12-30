@@ -811,7 +811,12 @@ figcaption {
 @media screen and (max-width: 768px) {
 
     .result__img {
-        height: 150px;
+        height: 200px;
+    }
+
+    .result__img img {
+        object-fit: contain;
+        object-position: center;
     }
 
     .post-nav {
