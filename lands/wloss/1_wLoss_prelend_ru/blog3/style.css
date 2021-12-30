@@ -7,11 +7,6 @@
     box-sizing: border-box;
 }
 
-body {
-    padding-top: 15px;
-    background: linear-gradient(#abe7b8, #beffcf, #abe7b8);
-}
-
 img {
     display: block;
     width: 100%;
@@ -137,6 +132,8 @@ figcaption {
 
 .post {
     width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .post__header {
@@ -198,8 +195,8 @@ figcaption {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: 50% 0;
+    object-fit: contain;
+    object-position: center;
 }
 
 .result__text {
@@ -514,11 +511,6 @@ figcaption {
 
     .result__img {
         height: 200px;
-    }
-
-    .result__img img {
-        object-fit: contain;
-        object-position: center;
     }
 }
 

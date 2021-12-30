@@ -225,8 +225,13 @@ figcaption {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: 50% 0;
+    object-fit: contain;
+    object-position: center;
+}
+
+.result__text {
+    font-style: italic;
+    color: #333;
 }
 
 .progress {
@@ -812,11 +817,6 @@ figcaption {
 
     .result__img {
         height: 200px;
-    }
-
-    .result__img img {
-        object-fit: contain;
-        object-position: center;
     }
 
     .post-nav {
