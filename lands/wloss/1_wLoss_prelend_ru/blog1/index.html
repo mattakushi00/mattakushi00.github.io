@@ -121,7 +121,42 @@
 		<p>И еще хорошая новость: только до
 			<span class="sale"></span> года включительно на сайте производителя W-loss вы можете приобрести это средство со скидкой до 50%! Поторопитесь ☺
 		</p>
-		<a href="" class="order">Купить W-loss со скидкой на сайте производителя</a>
+		<form class="all-form">
+			<div class="all-form__time">
+				Всё, что Вам нужно – это ввести имя и номер телефона. <span>Поторопитесь! У Вас осталось времени:</span>
+				<div class="all-form__count">
+					<span class="all-form__min">10</span>:<span class="all-form__sec">00</span>
+				</div>
+			</div>
+			<div class="all-form__body">
+				<div class="all-form__title">Форма заявки <span>W-loss</span></div>
+				<div class="all-form__box">
+					<div class="all-form__label">
+						<span>Ваша страна:</span>
+						<select class="all-form__field all-form__select">
+							<option selected value="">Россия</option>
+							<option value=""></option>
+							<option value=""></option>
+						</select>
+					</div>
+					<div class="all-form__label">
+						<span>Ваше имя:</span>
+						<input class="all-form__field" type="text" placeholder="Введите ваше имя">
+					</div>
+					<div class="all-form__label">
+						<span>Телефон:</span>
+						<input class="all-form__field" type="text" placeholder="Введите ваш телефон">
+					</div>
+				</div>
+				<div class="all-form__footer">
+					<button class="all-form__btn">Получить с 50% скидкой</button>
+					<div class="all-form__prices">
+						<div class="all-form__price-new">39 EUR</div>
+						<div class="all-form__price-old">78 EUR</div>
+					</div>
+				</div>
+			</div>
+		</form>
 		<section class="news">
 			<div class="news__header">
 				<h3 class="news__title">Читайте больше историй похудевших с W-loss:</h3>
@@ -288,6 +323,7 @@
 </footer>
 
 <script src="date.js"></script>
+<script src="../js/form.js"></script>
 <script src="../js/jquery.js"></script>
 <script src="../js/comment.js"></script>
 <script src="../slick/slick.min.js"></script>
