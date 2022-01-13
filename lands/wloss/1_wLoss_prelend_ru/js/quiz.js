@@ -8,15 +8,15 @@
     const status = document.querySelector('.quiz__status')
     let isValidate = new Map()
 
+    /*create validate data*/
     document.querySelectorAll('.quiz__input').forEach(item => {
         isValidate.set(item.getAttribute('name'), {isFill: false, isCorrect: false})
     })
 
-
+    /*validate*/
     document.querySelectorAll('.quiz__input').forEach(item => {
         item.addEventListener('input', e => {
 
-            /*validate*/
             if (e.target.value.length === 0) {
                 e.target.classList.remove('input__success')
                 e.target.classList.remove('input__error')
@@ -40,12 +40,14 @@
         })
     })
 
+    /*calculate imt*/
     form.addEventListener('input', () => {
         let validateFlag = false
         let imt = inputWeight.value / Math.pow(inputHeight.value / 100, 2)
         const lowBorder = 16
         const topBorder = 40
 
+        /*check validate*/
         isValidate.forEach(item => {
             if (item.isFill && item.isCorrect) {
                 validateFlag = true
@@ -54,16 +56,17 @@
             validateFlag = false
         })
 
+        /*validate error*/
         if (!validateFlag) {
             result__item.forEach(item => item.style.display = 'none')
             result__item[0].style.display = 'block'
             return
         }
 
+        /*validate success*/
         status.style.display = 'none'
         result.classList.remove('text__error')
 
-        /*calculate imt*/
         if (imt <= lowBorder) {
             result__item.forEach(item => item.style.display = 'none')
             result__item[1].style.display = 'block'

@@ -1,17 +1,20 @@
 (function (today, post, sale, comment, footer) {
-    var now = new Date(),
-        weekAgo = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 7),
-        d = weekAgo.getDate(),
-        m = weekAgo.getMonth() + 1,
-        y = weekAgo.getFullYear();
-    today[0].textContent = buildDate(now.getDate(), now.getMonth() + 1, now.getFullYear());
+    var now = new Date()
+    var diffDay = targetDay()
+    var postDate = new Date(now.getFullYear(), now.getMonth(), now.getDate() - diffDay)
+    var d = postDate.getDate()
+    var m = postDate.getMonth() + 1
+    var y = postDate.getFullYear();
+
     post[0].textContent = buildDate(d, m, y);
+    if (today[0]) {
+        today[0].textContent = buildDate(now.getDate(), now.getMonth() + 1, now.getFullYear())
+    }
     if (sale[0]) {
         sale[0].textContent = buildDate(now.getDate(), now.getMonth() + 1, now.getFullYear())
     }
-    for (var i = 0; i < footer.length; i++) {
-        footer[i].textContent = now.getFullYear();
-    }
+    footer[0].textContent = now.getFullYear();
+
     generateDate(comment, 0.8);
 
     function zero(val) {
@@ -22,9 +25,23 @@
         return [zero(d), zero(m), y,].join('.');
     }
 
+    /*change post date in blogs*/
+    function targetDay() {
+        if (window.location.pathname.includes('blog1')) {
+            return 10
+        }
+        if (window.location.pathname.includes('blog2')) {
+            return 11
+        }
+        if (window.location.pathname.includes('blog3')) {
+            return 9
+        }
+        return 7
+    }
+
     function generateDate(array, num) {
         for (var i = 0; i < array.length; i++) {
-            var newDate = new Date(weekAgo.getFullYear(), weekAgo.getMonth(), Math.round(weekAgo.getDate() + (i * num))),
+            var newDate = new Date(postDate.getFullYear(), postDate.getMonth(), Math.round(postDate.getDate() + (i * num))),
                 chooseDate = newDate < now ? newDate : now;
             array[i].textContent = buildDate(
                 chooseDate.getDate(),
