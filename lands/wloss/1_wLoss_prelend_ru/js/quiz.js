@@ -4,6 +4,7 @@
     const inputWeight = document.querySelector('input[name="weight"]')
     const inputWishfulWeight = document.querySelector('input[name="wishfulWeight"]')
     const result = document.querySelector('.quiz__result')
+    const result__item = document.querySelectorAll('.quiz__result-item')
     const status = document.querySelector('.quiz__status')
     let isValidate = new Map()
 
@@ -54,9 +55,8 @@
         })
 
         if (!validateFlag) {
-            result.textContent = 'неверно заполнено или заполнено не все'
-            result.classList.add('text__error')
-            status.style.display = 'block'
+            result__item.forEach(item => item.style.display = 'none')
+            result__item[0].style.display = 'block'
             return
         }
 
@@ -65,31 +65,38 @@
 
         /*calculate imt*/
         if (imt <= lowBorder) {
-            result.textContent = `Выраженный дефицит массы тела, вам не нужно худеть.`
+            result__item.forEach(item => item.style.display = 'none')
+            result__item[1].style.display = 'block'
         }
 
         if (imt > lowBorder && imt < 18.49) {
-            result.textContent = `Недостаточная масса тела, вам не нужно худеть.`
+            result__item.forEach(item => item.style.display = 'none')
+            result__item[2].style.display = 'block'
         }
 
         if (imt > 18.5 && imt < 22.99) {
-            result.textContent = `У вас нормальная масса тела.`
+            result__item.forEach(item => item.style.display = 'none')
+            result__item[3].style.display = 'block'
         }
 
         if (imt > 23 && imt < 29.99) {
-            result.textContent = `У вас избыточная масса тела (предожирение).\n Похудение с помощью физических тренировок: 187 дней. \n Минусы: велика вероятность пропуска тренировок. \n Похудение с помощью диет: 156 дней. \n Минусы: велика вероятность срыва. \n Похудение с помощью метода Алексея Смирнова: курс 60 дней. `
+            result__item.forEach(item => item.style.display = 'none')
+            result__item[4].style.display = 'block'
         }
 
         if (imt > 30 && imt < 34.99) {
-            result.textContent = `У вас ожирение первой степени.\n Похудение с помощью физических тренировок: 267 дней.\n Минусы: велика вероятность пропуска тренировок.\n Похудение с помощью диет: 198 дней.\n Минусы: велика вероятность срыва.\n Похудение с помощью метода Алексея Смирнова: курс 80 дней. `
+            result__item.forEach(item => item.style.display = 'none')
+            result__item[5].style.display = 'block'
         }
 
         if (imt > 35 && imt < 39.99) {
-            result.textContent = `У вас ожирение второй степени.\n Похудение с помощью физических тренировок: 369 дней.\n Минусы: велика вероятность пропуска тренировок.\n Похудение с помощью диет: 278 дней.\n Минусы: велика вероятность срыва.\n Похудение с помощью метода Алексея Смирнова: курс 100 дней. `
+            result__item.forEach(item => item.style.display = 'none')
+            result__item[6].style.display = 'block'
         }
 
         if (imt >= topBorder) {
-            result.textContent = `У вас ожирение третьей степени (морбидное).\n Похудение с помощью физических тренировок: 489 дней.\n Минусы: велика вероятность пропуска тренировок.\n Похудение с помощью диет: 397 дней.\n Минусы: велика вероятность срыва.\n Похудение с помощью метода Алексея Смирнова: курс 150 дней. `
+            result__item.forEach(item => item.style.display = 'none')
+            result__item[7].style.display = 'block'
         }
 
     })
