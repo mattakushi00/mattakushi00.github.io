@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+textarea:focus, input:focus{
+    outline: none;
+}
+
 img {
     display: block;
     width: 100%;
@@ -92,9 +96,9 @@ figcaption {
 }
 
 
+
 .header {
     background: #fff;
-    padding: 5px 0;
     border-bottom: 1px solid #000;
     position: relative;
     z-index: 2;
@@ -116,7 +120,6 @@ figcaption {
 
 .nav {
     display: inline-flex;
-    align-items: center;
     margin: 0 10px;
 }
 
@@ -127,23 +130,16 @@ figcaption {
     padding: 10px;
     margin: 0 5px;
     cursor: pointer;
+    line-height: 1.5;
 }
 
-.header__input {
-    display: block;
-    width: 100%;
-    color: #000;
-    background: #fff;
-    padding: 2px 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+.nav__item_active {
+    background-color: #f68e1e;
 }
 
 .nav__svg {
     display: block;
-    width: 100%;
-    max-width: 16px;
-    flex: 1 0 100%;
+    width: auto;
 }
 
 .nav__svg svg {
@@ -160,6 +156,10 @@ figcaption {
     font-size: 45px;
     color: #4c4e4d;
     margin-top: 50px;
+}
+
+.post__header {
+    border-bottom: 1px solid #ccc;
 }
 
 .post__pretitle {
@@ -181,7 +181,7 @@ figcaption {
     position: absolute;
 }
 
-.post-date {
+.today {
     background-color: #fff;
     position: relative;
     z-index: 2;
@@ -208,6 +208,45 @@ figcaption {
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
+}
+
+.quiz {
+    display: flex;
+    background-color: #f5f5f5;
+    min-height: 400px;
+    border: 1px solid #f68e1e;
+}
+
+.quiz__item {
+    padding: 15px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.quiz__form {
+    background-color: transparent;
+}
+
+.quiz__input {
+    display: block;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.text__error {
+    color: red;
+}
+
+.input__error {
+    border: 2px solid red;
+}
+
+.input__success {
+    border: 2px solid green;
+}
+
+.quiz__title {
+    margin: 0;
 }
 
 .result {
@@ -252,7 +291,7 @@ figcaption {
     border-bottom: 1px solid #eee;
 }
 
-.progress__item  p:first-child {
+.progress__item p:first-child {
     font-style: italic;
     font-weight: 600;
 }
@@ -267,47 +306,8 @@ figcaption {
     margin: 0 auto;
 }
 
-.soc {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.soc__item {
-    max-width: 40px;
-    height: 40px;
-    padding: 8px;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.soc__item_last {
-    max-width: 90px;
-    display: flex;
-    align-items: center;
-    color: #4c4e4d;
-    text-transform: uppercase;
-    font-size: 10px;
-    letter-spacing: 2px;
-}
-
-.soc__svg {
-    width: 100%;
-    max-width: 40px;
-    height: 100%;
-    flex: 1 0 100%;
-}
-
-.soc__svg_facebook path {
-    fill: #325a97;
-}
-
-.soc__svg_twitter path {
-    fill: #00aced;
-}
-
-.soc__svg_share path {
-    fill: #4c4e4d;
+.logo_footer {
+    max-width: 144px;
 }
 
 .share {
@@ -379,76 +379,73 @@ figcaption {
     color: #000;
 }
 
+.news__link {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.news__link:hover {
+    color: #6969da;
+    
+}
+
 .footer {
     align-self: flex-end;
-    background: #e7e7e7;;
+    background: #f7f8f9;
     color: #000;
-    padding: 30px 0;
-    margin-top: 20px;
+    padding-bottom: 30px;
 }
 
-.footer__container {
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.footer__left {
-    max-width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer__img {
-    max-width: 50px;
-}
-
-.footer__center {
-    max-width: 900px;
-    flex: 1 0;
-}
-
-.footer__text {
-    font-size: 14px;
-    margin: 0 0 10px;
-    text-align: center;
-}
-
-.footer__right {
-    max-width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-
-.footer__list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0;
-    margin-bottom: 10px;
-    list-style: none;
-}
-
-.footer__item {
-    font-size: 13px;
-    margin: 2px 10px;
-    padding: 0 10px 0 0;
+.footer__header {
+    border-bottom: 1px solid #d5d5d5;
+    padding: 10px 0;
     position: relative;
 }
 
-.footer__item_right {
-    max-width: 100%;
-    flex: 1 0 100%;
-    margin: 5px 0;
-    text-align: right;
+.footer__body {
+    display: flex;
 }
 
-.footer__logo-right {
-    max-width: 150px;
-    flex: 1 0 100%;
-    margin-bottom: 15px;
+.footer__list {
+    width: 20%;
+    list-style: none;
+    cursor: pointer;
 }
+
+.footer__list-item_title {
+    font-weight: 700;
+}
+
+.footer__text {
+    text-align: center;
+}
+
+.soc {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.soc_footer {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    display: flex;
+}
+
+.soc__item {
+    margin-right: 10px;
+}
+
+.soc__img {
+    width: 100%;
+    max-width: 30px;
+}
+
 
 @media screen and (max-width: 991px) {
 
@@ -467,34 +464,10 @@ figcaption {
         margin: 0;
     }
 
-    .footer__container {
-        justify-content: center;
-    }
-
-    .footer__center,
-    .footer__list,
-    .footer__right {
-        max-width: 100%;
-        flex: 1 0 100%;
-    }
-
-    .footer__center,
-    .footer__right {
-        margin: 10px 0;
-    }
-
-    .footer__right,
-    .footer__list {
-        justify-content: center;
-    }
-
-    .footer__item {
-        text-align: center;
-    }
-
     .nav {
         display: none;
     }
+
     .content {
         margin-top: 20px;
     }
@@ -506,12 +479,25 @@ figcaption {
         width: 100%;
     }
 
+    .soc {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
 
     h1 {
         font-size: 32px;
+    }
+
+    .quiz {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .quiz__form {
+        max-width: 290px;
     }
 
 }
@@ -876,7 +862,7 @@ figcaption {
     display: none;
 }
 
-.commits__item+.commits__item {
+.commits__item + .commits__item {
     margin-top: 20px;
     border-top: 1px solid #eaeaea;
 }
@@ -1013,13 +999,12 @@ figcaption {
 }
 
 
-
 .mybtn:hover {
     transform: scale(.98);
     opacity: 1;
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
     .commits__description {
         font-size: 14px;
     }

@@ -20,14 +20,9 @@
 			</span> <span class="nav__item">Последние новости</span> <span class="nav__item">Развлечения </span>
 			<span class="nav__item">Что посмотреть </span> <span class="nav__item">Спорт </span>
 			<span class="nav__item">Мир</span> <span class="nav__item">Технологии</span>
-			<span class="nav__item">Киберспорт</span> <span class="nav__item">Животные</span>
+			<span class="nav__item">блоги</span> <span class="nav__item">Животные</span>
 			<span class="nav__item">Фотографии</span>
 		</nav>
-		
-		<div class="header__right">
-		
-		</div>
-	
 	</div>
 </header>
 
@@ -36,23 +31,58 @@
 		<div class="post">
 			<div class="post__header">
 				<img src="img/logo.svg" alt="logo" class="logo logo_main">
-				<div class="post__pretitle"><span class="post-date"></span></div>
+				<div class="post__pretitle"><span class="today"></span></div>
 				<nav class="post-nav">
 					<div class="post-nav__item">Последние новости</div>
 					<div class="post-nav__item">Тенденции</div>
 					<div class="post-nav__item">Культура</div>
 				</nav>
+				
+				<h1 class="post__title">Средство, с которым худеют все:</h1>
+				<p>Похудеть в бедрах и животе после 45-ти теперь легко!</p>
+				<p><span class="post-date"></span></p>
+				<ul class="soc">
+					<li class="soc__item">
+						<img src="img/soc1.svg" class="soc__img" alt="">
+					</li>
+					<li class="soc__item">
+						<img src="img/soc2.svg" class="soc__img" alt="">
+					</li>
+					<li class="soc__item">
+						<img src="img/soc3.svg" class="soc__img" alt="">
+					</li>
+					<li class="soc__item">
+						<img src="img/soc4.svg" class="soc__img" alt="">
+					</li>
+					<li class="soc__item">
+						<img src="img/soc5.svg" class="soc__img" alt="">
+					</li>
+				</ul>
 			</div>
-			<h1 class="post__title">Средство, с которым худеют все:</h1>
-			<h2 class="post__subtitle">Похудеть в бедрах и животе после 45-ти теперь легко!</h2>
 			<p>Если вы когда-либо пытались избавиться от лишнего веса, то наверняка знаете, что основные способы сделать это – диеты и физические нагрузки, а к экстремальным относятся таблетки и липосакция. Но время показало, что ни один из этих методов не является достаточно эффективным, ведь число людей с избыточным весом продолжает расти.</p>
 			<p>Сегодня положение дел резко изменилось вместе с появлением средства, стимулирующего снижение веса за счет естественных процессов. Но не будем забегать вперед. Обо всем по порядку расскажет руководитель института диетологии Алексей Смирнов.</p>
+			<p>Для начала, давайте разберемся с вашими целями и способами их достижения. Для этого пройдите опрос ниже:</p>
+			<div class="quiz">
+				<form class="quiz__item quiz__form">
+					<label for="height">Ваш рост:</label>
+					<input type="text" class="quiz__input" name="height" id="height" placeholder="см">
+					<label for="weight">Ваш вес:</label>
+					<input type="text" class="quiz__input" name="weight" id="weight" placeholder="кг">
+					<label for="wishfulWeight">Желаемый вес (кг):</label>
+					<input type="text" class="quiz__input" name="wishfulWeight" id="wishfulWeight" placeholder="кг">
+				</form>
+				<div class="quiz__item">
+					<h4 class="quiz__title">Результат:</h4>
+					<p class="quiz__status">Заполните все поля для результата, используя только цифры</p>
+					<p class="quiz__result"></p>
+				</div>
+			</div>
 			<p>Алексей – врач с более чем двадцатилетним стажем работы. Это высококлассный специалист в области гастроэнтерологии и диетологии. Он принимает активное участие в различных конференциях и исследованиях, посвященных проблеме борьбы с лишним весом. На его счету более 7000 женщин, которые успешно избавились от ненавистных килограммов, смогли стать здоровее, красивее и увереннее в себе.</p>
+			<h4>Автор статьи – Алексей Смирнов.</h4>
 			<figure>
 				<img src="img/post1.jpg" alt="post-img" class="post__img">
 				<figcaption class="text-right">Алексей Смирнов</figcaption>
 			</figure>
-			<p>Автор статьи – Алексей Смирнов.</p>
 			<h3>Лишний вес: не просто эстетическая проблема, а смертельная угроза.</h3>
 			<p>Ожирение – бич XXI века. Это настоящая смертельная пандемия. Врачи не устают бить тревогу, ведь от лишнего веса страдают более 30% населения Земли. Лишний вес вызывает не только психологические проблемы, но и целый комплекс жизнеугрожающих последствий, среди которых:</p>
 			<ul>
@@ -129,33 +159,35 @@
 			</p>
 			<h3>Совет по приему W-loss</h3>
 			<p>Для усиления эффекта рекомендуется принимать препарат натощак.</p>
-			<h3>Результаты пациентов, принимавших W-loss:</h3>
-			<div class="result">
-				<figure class="result__item">
-					<div class="result__img">
-						<img src="img/post4.jpg" alt="post">
+			<section class="news">
+				<div class="news__header">
+					<h3 class="news__title">Почитайте больше историй моих клиенток, похудевших с W-loss</h3>
+				</div>
+				<a href="blogs/blog1/index.html" class="news__item">
+					<div class="news__img-container">
+						<img src="img/blog1.jpg" alt="aside-img" class="news__img">
 					</div>
-					<figcaption>Результат после 49 дней приема W-loss: минус 25 килограммов</figcaption>
-					<p class="result__text">«С W-loss я вижу результаты, которых не могла добиться ни с одним другим средством. Буду продолжать принимать и дальше!»</p>
-				</figure>
-				
-				<figure class="result__item">
-					<div class="result__img">
-						<img src="img/post5.jpg" alt="post">
+					<p class="news__text">Лучший способ похудения, который я когда-либо пробовала: минус 40 килограммов и подтянутое тело...
+						<span class="news__link">читать далее</span>
+					</p>
+				</a>
+				<a href="blogs/blog2/index.html" class="news__item">
+					<div class="news__img-container">
+						<img src="img/blog2.jpg" alt="aside-img" class="news__img">
 					</div>
-					<figcaption>Результат после 52 дней приема W-loss: минус 34 килограмма</figcaption>
-					<p class="result__text">«Благодаря W-loss я стала совершенно другим человеком! Наконец-то могу носить вещи, которые мне нравятся, а не которые налезли».</p>
-				</figure>
-				
-				<figure class="result__item">
-					<div class="result__img">
-						<img src="img/post6.jpg" alt="post">
+					<p class="news__text">Легко сбросила 100 килограммов и начала новую жизнь. Моя методика похудения после 50 лет...
+						<span class="news__link">читать далее</span>
+					</p>
+				</a>
+				<a href="blogs/blog3/index.html" class="news__item">
+					<div class="news__img-container">
+						<img src="img/blog3.jpg" alt="aside-img" class="news__img">
 					</div>
-					<figcaption>Результат после 67 дней приема W-loss: минус 27 килограммов</figcaption>
-					<p class="result__text">«После беременности никак не могла скинуть вес, помог мне только W-loss. Муж снова начал видеть во мне женщину, а я снова полюбила себя».</p>
-				</figure>
-			</div>
-			
+					<p class="news__text">Моя реальная история похудения без вреда для здоровья и диет...
+						<span class="news__link">читать далее</span>
+					</p>
+				</a>
+			</section>
 			<h3>Комментарий специалиста</h3>
 			<figure>
 				<img src="img/post7.jpg" alt="post" class="post__img">
@@ -218,28 +250,6 @@
 					</div>
 				</div>
 			</form>
-			
-			<section class="news">
-				<div class="news__header">
-					<h3 class="news__title">Читайте больше историй похудевших с W-loss:</h3>
-				</div>
-				<a href="blog1/index.html" class="news__item">
-					<div class="news__img-container">
-						<img src="img/blog1.jpg" alt="aside-img" class="news__img">
-					</div>
-					<p class="news__text">Лучший способ похудения, который я когда-либо пробовала: минус 40 килограммов и подтянутое тело</p>
-				</a> <a href="blog2/index.html" class="news__item">
-				<div class="news__img-container">
-					<img src="img/blog2.jpg" alt="aside-img" class="news__img">
-				</div>
-				<p class="news__text">Легко сбросила 100 килограммов и начала новую жизнь. Моя методика похудения после 50 лет</p>
-			</a> <a href="blog3/index.html" class="news__item">
-				<div class="news__img-container">
-					<img src="img/blog3.jpg" alt="aside-img" class="news__img">
-				</div>
-				<p class="news__text">Моя реальная история похудения без вреда для здоровья и диет</p>
-			</a>
-			</section>
 			
 			<section class="comment-block">
 				<div class="comment-header">
@@ -381,9 +391,48 @@
 	</section>
 </main>
 <footer class="footer">
-	<p class="footer__text">© <span class="footer-date footer__text"></span> All rights reserved.</p>
+	<div class="footer__header">
+		<ul class="soc soc_footer">
+			<li class="soc__item">
+				<img src="img/soc1.svg" class="soc__img" alt="">
+			</li>
+			<li class="soc__item">
+				<img src="img/soc2.svg" class="soc__img" alt="">
+			</li>
+			<li class="soc__item">
+				<img src="img/soc3.svg" class="soc__img" alt="">
+			</li>
+			<li class="soc__item">
+				<img src="img/soc4.svg" class="soc__img" alt="">
+			</li>
+			<li class="soc__item">
+				<img src="img/soc5.svg" class="soc__img" alt="">
+			</li>
+		</ul>
+		<img src="img/logo.svg" alt="logo" class="logo logo_footer">
+	</div>
+	<div class="footer__body">
+		<ul class="footer__list">
+			<li class="footer__list-item footer__list-item_title">информация</li>
+			<li class="footer__list-item">Аргентина</li>
+			<li class="footer__list-item">Америка</li>
+			<li class="footer__list-item">Мексика</li>
+			<li class="footer__list-item">Колумбия</li>
+			<li class="footer__list-item">RSS</li>
+			<li class="footer__list-item">Перу</li>
+			<li class="footer__list-item">Последние новости</li>
+		</ul>
+		<ul class="footer__list">
+			<li class="footer__list-item footer__list-item_title">Социальные сети</li>
+			<li class="footer__list-item">Facebook</li>
+			<li class="footer__list-item">Twitter</li>
+			<li class="footer__list-item">Instagram</li>
+		</ul>
+	</div>
+	<p class="footer__text">© <span class="footer-date footer__text"></span> Все права защищены.</p>
 </footer>
 
+<script src="js/quiz.js"></script>
 <script src="js/date.js"></script>
 <script src="js/form.js"></script>
 <script src="js/jquery.js"></script>

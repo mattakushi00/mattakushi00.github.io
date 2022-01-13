@@ -5,32 +5,65 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Блог доктора Татьяны</title>
-	<link rel="stylesheet" href="../slick/slick.css">
-	<link rel="stylesheet" href="../slick/slick-theme.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../../slick/slick.css">
+	<link rel="stylesheet" href="../../slick/slick-theme.css">
+	<link rel="stylesheet" href="../style.css">
 </head>
 <body>
+<header class="header">
+	<div class="header__container container">
+		<nav class="nav">
+			<span class="nav__item nav__svg">
+				<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+			</span> <span class="nav__item nav__svg">
+				<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+			</span> <span class="nav__item">Последние новости</span> <span class="nav__item">Развлечения </span>
+			<span class="nav__item">Что посмотреть </span> <span class="nav__item">Спорт </span>
+			<span class="nav__item">Мир</span> <span class="nav__item">Технологии</span>
+			<span class="nav__item nav__item_active">блоги</span> <span class="nav__item">Животные</span>
+			<span class="nav__item">Фотографии</span>
+		</nav>
+	</div>
+</header>
+
 <main class="container container_shadow">
 	<div class="post">
-		<aside class="about">
-			<div class="about__header">
-				<div class="avatar__container">
-					<img src="img/avatar.jpg" alt="avatar" class="avatar">
-				</div>
-				<h1 class="about__title">Блог доктора Татьяны</h1>
+		<section class="about">
+			<div class="about__avatar">
+				<img src="img/avatar.jpg" alt="avatar" class="avatar">
 			</div>
-			<p class="about__text">
-				<b>О себе:</b> Меня зовут Татьяна, я врач иммунолог-аллерголог, главный врач клиники, мама двоих детей.
-			</p>
-		</aside>
+			<div class="about__header">
+				<h1 class="about__title">Блог доктора Татьяны</h1>
+				<p class="about__text">
+					<b>О себе:</b> Меня зовут Татьяна, я врач иммунолог-аллерголог, главный врач клиники, мама двоих детей.
+				</p>
+			</div>
+		</section>
 		<header class="post__header">
 			<h2 class="post__title">Моя реальная история похудения без вреда для здоровья и диет</h2>
+			<p>Здравствуйте, читатели моего блога! Сегодня я хочу рассказать вам о способе похудения, которым воспользовалась сама лично и хотела бы посоветовать всем людям, страдающим от лишнего веса. К написанию этой статьи меня подтолкнуло то, что я ежедневно сталкиваюсь в коридорах своей клиники с людьми с лишним весом. Многие из них не знают, что делать, как питаться и к каким средствам можно обращаться, а к каким – нет.</p>
 			<span class="post-date"></span>
+			<ul class="soc">
+				<li class="soc__item">
+					<img src="../../img/soc1.svg" class="soc__img" alt="">
+				</li>
+				<li class="soc__item">
+					<img src="../../img/soc2.svg" class="soc__img" alt="">
+				</li>
+				<li class="soc__item">
+					<img src="../../img/soc3.svg" class="soc__img" alt="">
+				</li>
+				<li class="soc__item">
+					<img src="../../img/soc4.svg" class="soc__img" alt="">
+				</li>
+				<li class="soc__item">
+					<img src="../../img/soc5.svg" class="soc__img" alt="">
+				</li>
+			</ul>
 		</header>
 		<p>
-			<img src="../img/blog3.jpg" alt="post-img" class="post__img">
+			<img src="../../img/blog3.jpg" alt="post-img" class="post__img">
 		</p>
-		<p>Здравствуйте, читатели моего блога! Сегодня я хочу рассказать вам о способе похудения, которым воспользовалась сама лично и хотела бы посоветовать всем людям, страдающим от лишнего веса. К написанию этой статьи меня подтолкнуло то, что я ежедневно сталкиваюсь в коридорах своей клиники с людьми с лишним весом. Многие из них не знают, что делать, как питаться и к каким средствам можно обращаться, а к каким – нет.</p>
 		<p>И я таких людей прекрасно понимаю: сама раньше страдала. Я всегда была упитанной девочкой. В школе сталкивалась с буллингом даже от учителей, но в семье почему-то моему весу не уделяли должного внимания. Бабушка только умилялась моим пухлым щечкам. Дома у нас не было никакой культуры питания: мы ели всегда жареные и жирные продукты, так что ничего удивительного в моей полноте не было.</p>
 		<p>Когда я поступила в университет, то уехала от своей семьи, и мой рацион стал только хуже. Я покупала себе всякие вредные штуки, питалась снеками, всегда на ходу, всегда какие-то перекусы. Уже через полгода я перестала влезать в свои старые джинсы, они надевались только до колен. Но меня это не волновало: я училась, вокруг было много парней, и недостатка в их внимании я не испытывала.</p>
 		<p>На втором курсе универа я вышла замуж за красавца-парня, он учился на программиста, и его мои формы не смущали. С тех пор прошло уже много лет, и мы до сих пор вместе. Он всегда считал меня красивой, вне зависимости от моего веса.</p>
@@ -50,7 +83,7 @@
 		<p>Первое, о чем меня спросил диетолог, было: «как вы думаете, почему вы не худеете?» Ответ прост: потому что я много ем. Ем неправильную пищу, не могу ограничить себя в ее потреблении, срываюсь, поэтому диеты мне не помогают.</p>
 		<p>Как оказалось, худеть можно и без диет, питаясь привычными для вас продуктами – просто нужно сократить порции. И сделать это можно с помощью W-loss.</p>
 		<p>
-			<img src="../img/product.jpg" alt="product" class="post__img">
+			<img src="../../img/product.jpg" alt="product" class="post__img">
 		</p>
 		<h3>Как работает W-loss?</h3>
 		<p>W-loss – это пищевая добавка, направленная на снижение веса. Она работает сразу по нескольким направлениям:</p>
@@ -73,7 +106,7 @@
 		<p>
 			<img src="img/post3.jpg" alt="post" class="post__img">
 		</p>
-		<p>Еще предлагаю ознакомиться с отзывами других похудевших с W-loss:</p>
+		<p>Результаты моих подруг, которым я советовала W-loss:</p>
 		<div class="result">
 			<div class="result__item">
 				<div class="result__img">
@@ -140,21 +173,21 @@
 			<div class="news__header">
 				<h3 class="news__title">Читайте больше историй похудевших с W-loss:</h3>
 			</div>
-			<a href="../index.html" class="news__item">
+			<a href="../../index.html" class="news__item">
 				<div class="news__img-container">
-					<img src="../img/post1.jpg" alt="aside-img" class="news__img">
+					<img src="../../img/post1.jpg" alt="aside-img" class="news__img">
 				</div>
-				<p class="news__text">Средство, с которым худеют все</p>
+				<p class="news__text">Инновационный способ похудения от доктора Смирнова <span class="news__link">читать далее</span></p>
 			</a> <a href="../blog1/index.html" class="news__item">
 			<div class="news__img-container">
-				<img src="../img/blog1.jpg" alt="aside-img" class="news__img">
+				<img src="../../img/blog1.jpg" alt="aside-img" class="news__img">
 			</div>
-			<p class="news__text">Лучший способ похудения, который я когда-либо пробовала: минус 40 килограммов и подтянутое тело</p>
+			<p class="news__text">Лучший способ похудения, который я когда-либо пробовала: минус 40 килограммов и подтянутое тело <span class="news__link">читать далее</span></p>
 		</a> <a href="../blog2/index.html" class="news__item">
 			<div class="news__img-container">
-				<img src="../img/blog2.jpg" alt="aside-img" class="news__img">
+				<img src="../../img/blog2.jpg" alt="aside-img" class="news__img">
 			</div>
-			<p class="news__text">Легко сбросила 100 килограммов и начала новую жизнь. Моя методика похудения после 50 лет</p>
+			<p class="news__text">Легко сбросила 100 килограммов и начала новую жизнь. Моя методика похудения после 50 лет <span class="news__link">читать далее</span></p>
 		</a>
 		</section>
 		<section class="comment-block">
@@ -301,14 +334,52 @@
 
 </main>
 <footer class="footer">
-	<p class="footer__text">© <span class="footer-date footer__text"></span> All rights reserved.</p>
+	<div class="footer__header">
+		<ul class="soc soc_footer">
+			<li class="soc__item">
+				<img src="../../img/soc1.svg" class="soc__img" alt="">
+			</li>
+			<li class="soc__item">
+				<img src="../../img/soc2.svg" class="soc__img" alt="">
+			</li>
+			<li class="soc__item">
+				<img src="../../img/soc3.svg" class="soc__img" alt="">
+			</li>
+			<li class="soc__item">
+				<img src="../../img/soc4.svg" class="soc__img" alt="">
+			</li>
+			<li class="soc__item">
+				<img src="../../img/soc5.svg" class="soc__img" alt="">
+			</li>
+		</ul>
+		<img src="../../img/logo.svg" alt="logo" class="logo logo_footer">
+	</div>
+	<div class="footer__body">
+		<ul class="footer__list">
+			<li class="footer__list-item footer__list-item_title">информация</li>
+			<li class="footer__list-item">Аргентина</li>
+			<li class="footer__list-item">Америка</li>
+			<li class="footer__list-item">Мексика</li>
+			<li class="footer__list-item">Колумбия</li>
+			<li class="footer__list-item">RSS</li>
+			<li class="footer__list-item">Перу</li>
+			<li class="footer__list-item">Последние новости</li>
+		</ul>
+		<ul class="footer__list">
+			<li class="footer__list-item footer__list-item_title">Социальные сети</li>
+			<li class="footer__list-item">Facebook</li>
+			<li class="footer__list-item">Twitter</li>
+			<li class="footer__list-item">Instagram</li>
+		</ul>
+	</div>
+	<p class="footer__text">© <span class="footer-date footer__text"></span> Все права защищены.</p>
 </footer>
 
-<script src="date.js"></script>
-<script src="../js/form.js"></script>
-<script src="../js/jquery.js"></script>
-<script src="../js/comment.js"></script>
-<script src="../slick/slick.min.js"></script>
+<script src="../date.js"></script>
+<script src="../../js/form.js"></script>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/comment.js"></script>
+<script src="../../slick/slick.min.js"></script>
 <script>
 	$(document).ready(function () {
 		$('.result').slick({

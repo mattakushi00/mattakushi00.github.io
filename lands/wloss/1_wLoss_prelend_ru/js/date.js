@@ -1,9 +1,10 @@
-(function (post, sale, comment, footer) {
+(function (today, post, sale, comment, footer) {
     var now = new Date(),
         weekAgo = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 7),
         d = weekAgo.getDate(),
         m = weekAgo.getMonth() + 1,
         y = weekAgo.getFullYear();
+    today[0].textContent = buildDate(now.getDate(), now.getMonth() + 1, now.getFullYear());
     post[0].textContent = buildDate(d, m, y);
     if (sale[0]) {
         sale[0].textContent = buildDate(now.getDate(), now.getMonth() + 1, now.getFullYear())
@@ -32,6 +33,7 @@
         }
     }
 })(
+    document.getElementsByClassName('today'),
     document.getElementsByClassName('post-date'),
     document.getElementsByClassName('sale'),
     document.getElementsByClassName('comment-date'),
