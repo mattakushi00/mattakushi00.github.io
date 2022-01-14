@@ -216,6 +216,7 @@ figcaption {
 
 .post__header {
     border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
 }
 
 .post__pretitle {
@@ -946,7 +947,6 @@ figcaption {
     .post {
         flex: 1 0 100%;
         margin: 0;
-        padding-top: 0;
     }
 
     .nav {
@@ -1002,8 +1002,21 @@ figcaption {
         max-width: 290px;
     }
 
+    .about {
+        margin-bottom: 10px;
+    }
+
+    .about__avatar {
+        max-width: 75px;
+        height: 75px;
+    }
+
     .about__title {
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    .about__text {
+        font-size: 15px;
     }
 
     .avatar__container {
@@ -1011,8 +1024,9 @@ figcaption {
         height: 75px;
     }
 
-    .post-title {
-        font-size: 32px;
+    .post__title {
+        margin-top: 0;
+        font-size: 24px;
         line-height: 1.3;
     }
 
@@ -1020,7 +1034,11 @@ figcaption {
         line-height: 1.3;
     }
 
-    h2 {
+    p{
+        font-size: 16px;
+    }
+
+    h2, h3 {
         font-size: 20px;
     }
 
@@ -1036,6 +1054,11 @@ figcaption {
         width: 100%;
         max-width: 100%;
         margin: 0 0 10px;
+    }
+
+    .comm-avatar {
+        max-width: 75px;
+        height: 75px;
     }
 
 }
