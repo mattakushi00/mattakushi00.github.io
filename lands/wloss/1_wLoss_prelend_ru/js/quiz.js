@@ -1,12 +1,15 @@
 (function () {
-    const form = document.querySelector('.quiz__form')
+    const form = document.querySelector('.form')
     const inputHeight = document.querySelector('input[name="height"]')
     const inputWeight = document.querySelector('input[name="weight"]')
+    const inputSex = document.querySelector('select[name="sex"]')
     const inputWishfulWeight = document.querySelector('input[name="wishfulWeight"]')
     const result = document.querySelector('.quiz__result')
     const result__item = document.querySelectorAll('.quiz__result-item')
     const status = document.querySelector('.quiz__status')
     let isValidate = new Map()
+
+    console.dir(inputSex.value)
 
     /*create validate data*/
     document.querySelectorAll('.quiz__input').forEach(item => {
@@ -14,7 +17,12 @@
     })
 
     /*validate*/
-    document.querySelectorAll('.quiz__input').forEach(item => {
+    document.querySelectorAll('.quiz__input').forEach((item, index) => {
+
+        /*skip select with sex*/
+        if (index === 0) return
+
+        /*validate inputs*/
         item.addEventListener('input', e => {
 
             if (e.target.value.length === 0) {
@@ -45,6 +53,7 @@
         let validateFlag = false
         let imt = inputWeight.value / Math.pow(inputHeight.value / 100, 2)
         const lowBorder = 16
+        let middle = inputSex.value === 'man' ? 25 : 23
         const topBorder = 40
 
         /*check validate*/
@@ -77,12 +86,12 @@
             result__item[2].style.display = 'block'
         }
 
-        if (imt > 18.5 && imt < 22.99) {
+        if (imt > 18.5 && imt < middle) {
             result__item.forEach(item => item.style.display = 'none')
             result__item[3].style.display = 'block'
         }
 
-        if (imt > 23 && imt < 29.99) {
+        if (imt > middle && imt < 29.99) {
             result__item.forEach(item => item.style.display = 'none')
             result__item[4].style.display = 'block'
         }

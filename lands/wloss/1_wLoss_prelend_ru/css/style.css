@@ -54,7 +54,6 @@ h3 {
 
 figure {
     margin: 16px auto;
-    max-width: 600px;
 }
 
 figcaption {
@@ -203,7 +202,8 @@ figcaption {
 }
 
 .post__title {
-    font-size: 32px;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .post-date {
@@ -262,44 +262,69 @@ figcaption {
 }
 
 .post__img {
-    max-width: 600px;
     width: 100%;
     margin: 0 auto;
 }
 
 .quiz {
-    display: flex;
     background-color: #f5f5f5;
-    min-height: 400px;
     border: 1px solid #f68e1e;
+}
+
+.quiz__title {
+    font-size: 24px;
+}
+
+.quiz__title,
+.quiz__status {
+    color: #999;
 }
 
 .quiz__item {
     padding: 15px;
-    margin: 10px;
     background-color: #fff;
 }
 
-.quiz__form {
-    background-color: transparent;
+.quiz__item-textarea {
+    min-height: 320px;
+}
+
+.form {
+    background-color: #f68e1e;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__label {
+    color: #fff;
+    font-size: 20px;
+}
+
+.form__item {
+    width: 100%;
+    max-width: 190px;
+    margin: 10px;
 }
 
 .quiz__input {
+    width: 100%;
     display: block;
     padding: 5px 10px;
+    min-height: 30px;
     margin: 10px 0;
+    border: none;
 }
 
 .text__error {
-    color: red;
+    color: #d32828;
 }
 
 .input__error {
-    border: 2px solid red;
+    border: 2px solid #d32828;
 }
 
 .input__success {
-    border: 2px solid green;
+    border: 2px solid #7af37a;
 }
 
 .quiz__title {
