@@ -64,6 +64,27 @@
 		<p>Сегодня положение дел резко изменилось вместе с появлением средства, стимулирующего снижение веса за счет естественных процессов. Но не будем забегать вперед. Обо всем по порядку расскажет руководитель института диетологии Алексей Смирнов.</p>
 		<p>Для начала, давайте разберемся с вашими целями и способами их достижения. Для этого пройдите опрос ниже:</p>
 		<div class="quiz">
+			<form class="form quiz__item">
+				<div class="form__item">
+					<label class="form__label" for="sex">Ваш пол:</label>
+					<select name="sex" id="sex" class="quiz__input">
+						<option value="man" selected>М</option>
+						<option value="woman">Ж</option>
+					</select>
+				</div>
+				<div class="form__item">
+					<label class="form__label" for="height">Ваш рост:</label>
+					<input type="text" class="quiz__input" name="height" id="height" placeholder="см">
+				</div>
+				<div class="form__item">
+					<label class="form__label" for="weight">Ваш вес:</label>
+					<input type="text" class="quiz__input" name="weight" id="weight" placeholder="кг">
+				</div>
+				<div class="form__item">
+					<label class="form__label" for="wishfulWeight">Желаемый вес (кг):</label>
+					<input type="text" class="quiz__input" name="wishfulWeight" id="wishfulWeight" placeholder="кг">
+				</div>
+			</form>
 			<div class="quiz__item quiz__item-textarea">
 				<h4 class="quiz__title">Результат:</h4>
 				<p class="quiz__status">Заполните все поля для результата, используя только цифры</p>
@@ -114,27 +135,6 @@
 					</div>
 				</div>
 			</div>
-			<form class="form quiz__item">
-				<div class="form__item">
-					<label class="form__label" for="sex">Ваш пол:</label>
-					<select name="sex" id="sex" class="quiz__input">
-						<option value="man" selected>М</option>
-						<option value="woman">Ж</option>
-					</select>
-				</div>
-				<div class="form__item">
-					<label class="form__label" for="height">Ваш рост:</label>
-					<input type="text" class="quiz__input" name="height" id="height" placeholder="см">
-				</div>
-				<div class="form__item">
-					<label class="form__label" for="weight">Ваш вес:</label>
-					<input type="text" class="quiz__input" name="weight" id="weight" placeholder="кг">
-				</div>
-				<div class="form__item">
-					<label class="form__label" for="wishfulWeight">Желаемый вес (кг):</label>
-					<input type="text" class="quiz__input" name="wishfulWeight" id="wishfulWeight" placeholder="кг">
-				</div>
-			</form>
 		</div>
 		<p>Алексей – врач с более чем двадцатилетним стажем работы. Это высококлассный специалист в области гастроэнтерологии и диетологии. Он принимает активное участие в различных конференциях и исследованиях, посвященных проблеме борьбы с лишним весом. На его счету более 7000 женщин, которые успешно избавились от ненавистных килограммов, смогли стать здоровее, красивее и увереннее в себе.</p>
 		<h4>Автор статьи – Алексей Смирнов.</h4>
@@ -221,15 +221,15 @@
 			</div>
 			<a href="blogs/blog1/index.html" class="news__item">
 				<div class="news__img-container">
-					<img src="img/blog1.jpg" alt="aside-img" class="news__img">
+					<img src="blogs/blog1/img/post1.jpg" alt="aside-img" class="news__img">
 				</div>
-				<p class="news__text">Лучший способ похудения, который я когда-либо пробовала: минус 40 килограммов и подтянутое тело...
+				<p class="news__text">Лучший способ похудения, который я когда-либо пробовала: минус 30 килограммов и подтянутое тело...
 					<span class="news__link">читать далее</span>
 				</p>
 			</a>
 			<a href="blogs/blog2/index.html" class="news__item">
 				<div class="news__img-container">
-					<img src="img/blog2.jpg" alt="aside-img" class="news__img">
+					<img src="blogs/blog2/img/post1.jpg" alt="aside-img" class="news__img">
 				</div>
 				<p class="news__text">Легко сбросила 100 килограммов и начала новую жизнь. Моя методика похудения после 50 лет...
 					<span class="news__link">читать далее</span>
@@ -237,7 +237,7 @@
 			</a>
 			<a href="blogs/blog3/index.html" class="news__item">
 				<div class="news__img-container">
-					<img src="img/blog3.jpg" alt="aside-img" class="news__img">
+					<img src="blogs/blog3/img/post1.jpg" alt="aside-img" class="news__img">
 				</div>
 				<p class="news__text">Моя реальная история похудения без вреда для здоровья и диет...
 					<span class="news__link">читать далее</span>
