@@ -266,6 +266,10 @@ figcaption {
     margin: 0 auto;
 }
 
+.post__img_small {
+    max-width: 600px;
+}
+
 .quiz {
     background-color: #f5f5f5;
     border: 1px solid #f68e1e;
