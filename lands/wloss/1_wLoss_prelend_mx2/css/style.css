@@ -991,10 +991,6 @@ figcaption {
         width: 100%;
     }
 
-    .result__img {
-        height: 200px;
-    }
-
     .post-nav {
         display: none;
     }
@@ -1013,6 +1009,10 @@ figcaption {
 
     .quiz {
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form {
         justify-content: center;
     }
 

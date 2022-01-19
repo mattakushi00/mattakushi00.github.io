@@ -38,6 +38,7 @@ p {
     line-height: 1.5;
     font-size: 18px;
     width: 100%;
+    color: #3b3b3b;
 }
 
 h1 {
@@ -208,10 +209,11 @@ figcaption {
 
 .post-date {
     background-color: #fff;
+    color: #555;
+    font-size: 14px;
     position: relative;
     z-index: 2;
     padding: 5px;
-    font-style: italic;
 }
 
 .post__header {
@@ -995,10 +997,6 @@ figcaption {
         width: 100%;
     }
 
-    .result__img {
-        height: 200px;
-    }
-
     .post-nav {
         display: none;
     }
@@ -1013,6 +1011,10 @@ figcaption {
 
     h1 {
         font-size: 32px;
+    }
+
+    .form {
+        justify-content: center;
     }
 
     .quiz {

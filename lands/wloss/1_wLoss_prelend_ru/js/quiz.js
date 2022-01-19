@@ -9,8 +9,6 @@
     const status = document.querySelector('.quiz__status')
     let isValidate = new Map()
 
-    console.dir(inputSex.value)
-
     /*create validate data*/
     document.querySelectorAll('.quiz__input').forEach(item => {
         isValidate.set(item.getAttribute('name'), {isFill: false, isCorrect: false})
