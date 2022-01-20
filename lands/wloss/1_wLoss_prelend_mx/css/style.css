@@ -262,6 +262,7 @@ figcaption {
 }
 
 .post__img {
+    max-width: 600px;
     width: 100%;
     margin: 0 auto;
 }
@@ -349,6 +350,8 @@ figcaption {
 }
 
 .result__img img {
+    max-width: 600px;
+    margin: 0 auto;
     width: 100%;
 }
 
