@@ -38,6 +38,7 @@ p {
     line-height: 1.5;
     font-size: 18px;
     width: 100%;
+    color: #3b3b3b;
 }
 
 h1 {
@@ -208,10 +209,11 @@ figcaption {
 
 .post-date {
     background-color: #fff;
+    color: #555;
+    font-size: 14px;
     position: relative;
     z-index: 2;
     padding: 5px;
-    font-style: italic;
 }
 
 .post__header {
@@ -262,9 +264,12 @@ figcaption {
 }
 
 .post__img {
-    max-width: 600px;
     width: 100%;
     margin: 0 auto;
+}
+
+.post__img_small {
+    max-width: 600px;
 }
 
 .quiz {
@@ -461,17 +466,25 @@ figcaption {
 
 .footer__body {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footer__list {
     width: 100%;
-    max-width: 200px;
+    max-width: 25%;
     list-style: none;
     cursor: pointer;
 }
 
+.footer__list-item {
+    color: #666;
+    font-size: 14px;
+}
+
 .footer__list-item_title {
     font-weight: 700;
+    color: #000;
+    font-size: 16px;
 }
 
 .footer__text {
@@ -1001,6 +1014,10 @@ figcaption {
     .logo {
         margin-bottom: 20px;
     }
+
+    .footer__list {
+        max-width: 200px;
+    }
 }
 
 
@@ -1010,12 +1027,12 @@ figcaption {
         font-size: 32px;
     }
 
-    .quiz {
-        flex-wrap: wrap;
+    .form {
         justify-content: center;
     }
 
-    .form {
+    .quiz {
+        flex-wrap: wrap;
         justify-content: center;
     }
 
