@@ -1,0 +1,157 @@
+.comment-block {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.comment-block span {
+    font-weight: 700;
+    color: #000000;
+}
+
+.comment-header {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e7e9ee;
+}
+
+.comment-heading {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.comment-heading:after {
+    position: absolute;
+    bottom: -2px;
+    display: block;
+    width: 120px;
+    height: 2px;
+    content: "";
+    background-color: #2a2e2e;
+}
+
+.comment {
+    display: flex;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.comment-answer {
+    margin-left: 60px;
+}
+
+.avatar {
+    overflow: hidden;
+    flex: 1 0 100%;
+    width: 100%;
+    max-width: 70px;
+    height: 70px;
+    margin-right: 12px;
+    border-radius: 3px;
+    background-color: lightgrey;
+    background-position: center;
+    background-size: cover;
+}
+
+.comment-date {
+    font-size: .8rem;
+    text-decoration: none;
+    color: grey;
+}
+
+.comment-circle {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+
+.comment-name {
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+}
+
+.comment-text {
+    font-weight: 300;
+}
+
+.comment-info {
+    margin-bottom: 10px;
+}
+
+.comment-text p {
+    margin: 0;
+    color: #000;
+}
+
+.comment .comment-content .comm-img {
+    display: flex;
+    align-items: flex-start;
+    width: 40%;
+    margin: 10px 0;
+}
+
+.comment__send {
+    width: 100%;
+    max-width: 500px;
+}
+
+.comment__new {
+    display: none;
+}
+
+.comment__input {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.comment__input-text {
+    font-size: 14px;
+    height: 100px;
+}
+
+.comment__btn {
+    font-size: 16px;
+    width: 100%;
+    margin: 10px 20px 10px 0;
+    padding: 15px 40px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    background-color: #53b57f;
+}
+
+.comment__admin {
+    display: none;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 30px;
+    color: #666;
+}
+
+.avatar_new {
+    background-color: #ccc;
+}
+
+.avatar_new {
+    background-color: #ccc;
+}
+
+@media screen and (max-width: 576px) {
+    .avatar {
+        max-width: 45px;
+        height: 45px;
+    }
+}
