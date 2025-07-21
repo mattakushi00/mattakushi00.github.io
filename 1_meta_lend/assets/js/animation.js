@@ -1,4 +1,4 @@
-const dom = [...document.querySelectorAll('h3, .wrap p')]
+const dom = [...document.querySelectorAll('.wrap h3, .wrap p')]
 const animationObserver = new IntersectionObserver(entries => {
   for (let i = 0; i < entries.length; i++) {
     if (entries[i].isIntersecting) {

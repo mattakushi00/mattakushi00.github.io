@@ -173,9 +173,9 @@
 
 .about__img_3 {
     position: absolute;
-    right: 0;
+    right: 45px;
     bottom: 0;
-    max-width: 668px;
+    max-width: 559px;
 }
 
 .send {
@@ -291,9 +291,10 @@
 
 .bonus__img_8 {
     top: auto;
-    bottom: -40px;
+    bottom: 0;
     max-width: 331px;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: 50% 100%;
 }
 
 .bonus__text {
@@ -437,7 +438,6 @@
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-    margin-bottom: 115px;
 }
 
 .contacts__link {
@@ -673,7 +673,7 @@ input[type="checkbox"] {
     }
 
     .product__item {
-        max-width: 485px;
+        max-width: 410px;
     }
 
     .footer__bye {
@@ -873,8 +873,9 @@ input[type="checkbox"] {
     .about__img_3 {
         position: absolute;
         bottom: 0;
-        left: -155px;
-        width: 500px;
+        left: auto;
+        right: 15px;
+        width: 375px;
         margin: 0;
     }
 
@@ -1136,8 +1137,7 @@ input[type="checkbox"] {
     }
 
     .about__img_3 {
-        left: -137px;
-        width: 434px;
+        width: 325px;
     }
 
     .about__text-5_big {
