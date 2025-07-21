@@ -19,7 +19,7 @@ const galleryHandler = (galleryName) => {
     prevArrow: $(prevArrow),
     nextArrow: $(nextArrow),
     focusOnChange: true,
-    accessibility: true,
+    accessibility: false,
     responsive: [
       {
         breakpoint: 576,
