@@ -1,6 +1,6 @@
 openAndClose('.coockie', '.coockie__close')
-openAndClose('.politPrivacy', '.politPrivacy__close', '.openPolitPrivacy')
 openAndClose('.politCoockie', '.politCoockie__close', '.openPolitCoockie')
+openAndClose('.politPersonal', '.politPersonal__close', '.openPolitPersonal')
 
 function openAndClose(contentClass, closeButtonClass, openButtonClass = undefined) {
   const content = document.querySelector(contentClass)
