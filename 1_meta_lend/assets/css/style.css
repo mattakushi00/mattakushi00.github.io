@@ -435,6 +435,7 @@
 
 .contacts__row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
@@ -444,19 +445,49 @@
     background: var(--dark2);
     max-width: 435px;
     transition: all .3s linear;
-    border: 1px solid var(--white);
-}
-
-.main__arrow path {
-    stroke: var(--white);
+    color: var(--grey);
+    border: 1px solid var(--grey);
 }
 
 .contacts__link:hover {
+    background: var(--dark2);
+}
+
+.contacts__link.active {
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+.contact__label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.contact__label-text {
+    font-size: 1.0625rem;
+    line-height: 100%;
+    text-decoration: underline;
+    color: var(--white);
+    width: auto;
+}
+
+.contacts__link path {
+    stroke: var(--grey);
+}
+
+.contacts__link.active path {
+    stroke: var(--white);
+}
+
+.contacts__link.active:hover {
     color: var(--dark2);
     background: var(--white);
 }
 
-.contacts__link:hover .main__arrow path {
+.contacts__link.active:hover .main__arrow path {
     stroke: var(--dark2);
 }
 
