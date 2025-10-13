@@ -1,0 +1,115 @@
+{
+    "meta": {
+        "title": "Sada na hubnutí",
+        "description": "Описание"
+    },
+    "getConsultation": "Solicita una consulta",
+
+    "heroTitle": "Un cuerpo sano, un peso equilibrado",
+    "heroDesc": "Descubre un método personalizado para perder peso y mantenerte en forma.",
+    "excessWeight": "El exceso de peso se comporta como una bola de nieve: en determinadas circunstancias, aumenta muy rápidamente. Deshacerse de esta 'bola' de grasa acumulada es mucho más difícil que ganar peso. Después de los 60 años, la situación se complica aún más debido al metabolismo, que se ralentiza progresivamente con la edad.",
+    "factorsExcessWeightTitle": "Además, hay varios factores que influyen directamente en el aumento de peso:",
+    "weight-problem-main-problem-title": "Principales problemas:",
+    "weight-problem-common-causes-title": "Causas comunes:",
+    "weight-problem-hormonal-changes-title": "Cambios hormonales:",
+    "weight-problem-main-problem-desc": "alimentación desequilibrada, sedentarismo, falta de hidratación, alteraciones del sueño, consumo de refrescos y alcohol.",
+    "weight-problem-common-causes-desc": "picar entre comidas, aumento del apetito, falta de sensación de saciedad, comer por estrés, comer rápido o comer fuera de casa.",
+    "weight-problem-hormonal-changes-desc": "desarrollo de enfermedades crónicas, ciertos tratamientos médicos, cambios relacionados con la edad.",
+
+    "bannerWeightTitle": "Una vez que subes mucho de peso, perderlo puede parecer una tarea imposible. ",
+    "bannerWeightDesc": "La buena noticia: cualquiera puede lograrlo, tanto antes como después de los 55 años. ¡Y tú eres una de ellas!",
+
+    "twoWays": "Dos caminos, un resultado",
+    "independentWeightLoss": "Pérdida de peso por cuenta propia",
+    "intellectualWeightLoss": "Pérdida de peso inteligente con Iverylab",
+
+    "controlFood-title": "Control de dieta + suplementos nutricionales",
+    "physical-activity-title": "Actividad Física",
+    "fluid-balance-title": "Equilibrio de líquidos en el cuerpo",
+    "dieta-title": "¿Tienes problemas con tu dieta?",
+    "dieta-desc": "Tomar ciertos suplementos puede promover la cetogénesis sin tener que seguir una dieta estricta. Puedes comer lo que tu cuerpo antoje mientras quemas el exceso de grasa gracias a las cetonas presentes en los productos keto de Iverylab.",
+    "fluid-balance-desc": "¿Sabías que se recomienda beber hasta 2 litros de agua al día, pero no siempre es fácil? Un conjunto de suplementos especialmente seleccionados ayuda al cuerpo a regular su equilibrio de agua y sales. Esto ayuda a eliminar la retención de líquidos y a lucir más fresca.",
+    "physical-activity-desc": "Exigirse al máximo con entrenamientos intensos no solo supone un desafío mental, sino que también puede ser peligroso para la salud si se tiene sobrepeso. Recomendamos elegir una actividad que disfrutes: caminar por el parque, nadar o hacer ejercicios que no dañen las articulaciones.",
+    "controlFood-desc": "Los suplementos de Iverylab te ayudan a superar los antojos de dulces, comida chatarra, picoteo y excesos. Con el tiempo, aprenderás a escuchar a tu cuerpo y a saciarte con la cantidad de comida que realmente necesitas.",
+
+    "w-loss-title": "Un inicio ligero para tu metabolismo por la mañana",
+    "w-loss-desc": ": gotas con concentrado de piña, papaya y guaraná.",
+    "w-loss-first": "Un quemador de grasa natural que acelera el metabolismo.",
+    "w-loss-second": "Promueve la descomposición de la grasa.",
+    "w-loss-third": "Reduce la retención de líquidos. Fácil de tomar: simplemente dilúyelo en cualquier bebida.",
+
+    "keto-title": "Přirozené spalování tuků je bezpečné pro srdce",
+    "keto-desc": "- kapsle s BHB a rostlinnými výtažky",
+    "keto-first": "Pomáhá tělu vstoupit do režimu spalování tuků (ketóza), zejména při snižování sacharidů ve stravě",
+    "keto-second": "Usnadňuje dodržování keto diety",
+    "keto-third": "Může fungovat jako alternativa k pozdní večeři",
+
+    "cannabis-title": "Snížená chuť k jídlu",
+    "cannabis-desc": "– konopný olej ve snadno stravitelné formě",
+    "cannabis-first": "Snižuje hladinu stresu",
+    "cannabis-second": "Zlepšuje spánek",
+    "cannabis-third": "Snižuje večerní chuť k jídlu",
+
+
+    "rail": {
+        "wloss": "W-Loss",
+        "keto": "Keto Diet",
+        "cannabis": "Cannabis Oil"
+    },
+
+    "kg": "–6 kg",
+    "admission-course": "Plan de consumo:",
+    "admission-course-dash": "Duración del curso:",
+    "admission-course-30days": "30 días",
+    "admission-course-morning": "Mañana:",
+    "admission-course-morning-text": "W-Loss + Dieta Keto",
+    "admission-course-evening": "Noche:",
+    "admission-course-evening-text": "Aceite de Cannabis",
+
+    "expertOpinion": "Opinión del experto",
+    "expert-name": "Paul Weber",
+    "expert-prof": "Doctor en Medicina, profesor, dietista-nutricionista",
+    "expert-desc-1": "Como dietista",
+    "expert-desc-2": "creo que el uso de suplementos dietéticos para bajar de peso es una herramienta eficaz y necesaria en el proceso.",
+    "expert-desc-3": "Con un enfoque integral y correcto, facilitan y aceleran los resultados.",
+    "expert-desc-4": "Es fundamental no solo elegir suplementos de eficacia comprobada y de alta calidad, sino también combinarlos adecuadamente para obtener el máximo beneficio. Por ejemplo, algunos suplementos no solo aceleran el metabolismo o reducen el apetito, sino que también mejoran el sueño y combaten el estrés, factores que influyen decisivamente en el control del peso.",
+    "expert-desc-5": "Quiero enfatizar que tomar suplementos dietéticos es especialmente importante después de los 40 años.",
+    "expert-desc-6": "A esta edad, ciertos hábitos alimenticios suelen estar arraigados, los niveles de estrés son más altos y el tiempo para el ejercicio físico suele ser limitado. Los suplementos ayudan a compensar estos factores y facilitan la transición a un estilo de vida más saludable sin generar estrés adicional.",
+
+    "accordion-question-1": "¿Es un medicamento? ¿Necesito receta médica?",
+    "accordion-question-2": "¿Es seguro para mi edad (55+)?",
+    "accordion-question-3": "¿Cuándo se notarán los primeros resultados?",
+    "accordion-question-4": "¿Es necesaria una dieta estricta o ejercicio intenso?",
+    "accordion-question-5": "¿Puede causar dependencia o efectos secundarios?",
+    "accordion-question-6": "¿Se puede combinar con otros medicamentos (por ejemplo, para la hipertensión o la tiroides)?",
+    "accordion-question-7": "¿Cómo hacer un pedido y evitar falsificaciones?",
+    "accordion-question-8": "¿Causa dependencia o efectos secundarios?",
+
+    "accordion-answer-1": "No. No son medicamentos, sino nutracéuticos naturales que favorecen el metabolismo, el control del apetito y la digestión. Los productos están certificados y cumplen los requisitos de la Directiva 2002/46/CE de la UE. Puede tomarlos sin receta médica, aunque si padece alguna enfermedad crónica, es recomendable consultar con tu médico de cabecera.",
+    "accordion-answer-2": "Sí. La fórmula ha sido diseñada teniendo en cuenta la fisiología de las personas mayores de 55 años: sin cafeína ni estimulantes, sin azúcar ni gluten, apta para personas con presión arterial alta y estómagos sensibles.",
+    "accordion-answer-3": "Muchos usuarios reportan: reducción del apetito nocturno entre 4 y 7 días, despertar más fácilmente y mayor energía entre 10 y 14 días, pérdida de peso de 2 a 4 kg en el primer mes, manteniendo una actividad física moderada y una dieta regular. Cada cuerpo es único, por lo que los resultados pueden variar. Este es un proceso fisiológico natural.",
+    "accordion-answer-4": "No hay restricciones estrictas. El programa funciona incluso con una dieta normal, aunque: se recomienda beber agua media hora antes de las comidas, caminar de 20 a 30 minutos al día potencia los efectos. Si quieres acelerar los resultados, puedes reducir parcialmente los carbohidratos (por ejemplo, eliminando el pan y el azúcar por la noche) para que la cetogénesis comience antes.",
+    "accordion-answer-5": "No. Todos los ingredientes: tienen la certificación GRAS (Generalmente Reconocidos como Seguros), pasan las pruebas de laboratorio, no contienen hormonas, sibutramina ni estimulantes fuertes. El aceite de cannabis no contiene THC psicoactivo y es completamente seguro para consumir por la noche.",
+    "accordion-answer-6": "En la mayoría de los casos, sí. Sin embargo, si está tomando bloqueadores de los canales de calcio, diuréticos, tiroxina o estatinas, consulte primero con su médico sobre la compatibilidad.",
+    "accordion-answer-7": "No vendemos nuestros productos en plataformas de compraventa. Los pedidos oficiales se realizan exclusivamente en el sitio web iverylab.com. Puedes procesar tu pedido en línea o dejar tu solicitud por teléfono: un operador le devolverá la llamada. Todos los pedidos llegan en un embalaje sellado con un código QR de verificación e instrucciones de uso.",
+    "accordion-answer-8": "Todos los productos están registrados y contienen ingredientes aprobados por la EFSA. Entrega en toda Europa: de 2 a 5 días laborables. Además, puedes comprar vitaminas directamente en nuestra web iverylab.com con un 10% de descuento permanente.",
+
+    "benefits-text-1": "Todos los productos están registrados ",
+    "benefits-text-2": "y cuentan con componentes avalados por la EFSA.",
+    "benefits-text-3": "Entrega en toda Europa:",
+    "benefits-text-4": "de 2 a 5 días laborables.",
+    "benefits-text-5": "Además, tienes la posibilidad de comprar las vitaminas directamente",
+    "benefits-text-6": "en nuestra web iverylab.com con un 10 % de descuento permanente.",
+
+    "comment-1": "Practico marcha nórdica e intento comer con regularidad, pero siempre tenía esos 5-7 kilos que no podía perder. Decidí probar este complejo, del que había oído buenas críticas. Después del primer tratamiento, siento el abdomen más ligero, el edema ha desaparecido y me encanta cómo está reduciendo el volumen. En un mes, perdí 6 kilos y el progreso continúa. Lo mejor es que no hay restricciones estrictas como en las dietas, sino una verdadera ayuda desde dentro.",
+    "comment-2": "Tras la grave enfermedad de mi marido, empecé a comer para aliviar el estrés. Mi peso llegó a un punto crítico. Sabía que tenía que cambiar algo, pero me faltaba fuerza de voluntad. Mi hermana leyó sobre este complejo de suplementos y me animó a probarlo, ya que me ayuda a controlar el apetito. Empecé a tener menos ganas de comer, sobre todo por la noche. Mi sueño mejoró y mi estado emocional se estabilizó. En un mes y medio, perdí 7 kilos. Ahora me resulta más fácil controlar el estrés y siento que estoy volviendo a la normalidad.",
+    "comment-3": "Después de la cirugía de rodilla, empecé a caminar mucho menos. El peso seguía acumulándose, lo que solo empeoró el estado de mis articulaciones. Intenté seguir una dieta, pero al no ver resultados, perdí la motivación. Un nutricionista me recomendó este complejo para acelerar mi metabolismo y apoyar mi cuerpo. Pude controlar mis antojos de dulces y mi digestión mejoró significativamente. A pesar de mis limitaciones físicas, he perdido 7,5 kilos en dos meses y medio. Ahora caminar es mucho más fácil. Planeo repetir el tratamiento.",
+    "comment-4": "Siempre he sido delgada, pero después de los 60, el peso empezó a subir poco a poco. Aparecieron bolsas y barriga. Una amiga del gimnasio me recomendó añadir este suplemento a mi dieta. En dos meses, perdí 5 kilos, pero lo mejor fue que recuperé mi peso, además de que mi piel luce más firme y cuidada. Me siento mucho más joven.",
+    "comment-5": "Cuando me jubilé, empecé a moverme menos y, sin darme cuenta, engordé 12 kilos. Intenté controlar mis porciones, pero las restricciones tan estrictas me resultaban muy difíciles y recaía con frecuencia. Mi hija me convenció para que probara este complejo. El resultado: tengo más energía y se me han ido las ganas de picar. En tres meses, perdí 8 kilos y ahora puedo pasear a mi perro sin cansarme. Estoy encantada.",
+    "comment-6": "Sufrí un derrame cerebral cuando tenía poco más de 50 años, perdí mi trabajo y, desde entonces, la salud se ha vuelto más importante que la estética. Cocino para una familia numerosa, y lo más difícil fue organizar mis propias comidas puesto que las dietas no son lo mio. Estoy agradecida con el médico que me recomendó este complejo, puesto que sin cambiar mi rutina, logré perder 10 kilos de más y ahora me siento mucho mejor.",
+    "comment-7": "Mi peso máximo fue de 101 kilos. Con el complejo W-Loss y Keto, logré bajarlo a 89 kilos en dos meses y ahora me es mucho más fácil moverme: antes caminaba 3 km, ahora camino 8 km al día. Quiero perder otros 15 kilos.",
+    "comment-8": "Mi esposo, después de cumplir 65, empezó a acumular grasa abdominal. Lo comentamos con nuestro médico de cabecera, ya que padece enfermedades crónicas y sigue un tratamiento. Decidimos optar por un complejo de tres suplementos, lo cual es importante para evitar añadir más medicamentos. Los resultados han sido magníficos: ha desaparecido la barriga, está en forma y ahora ambos practicamos marcha rápida.",
+
+    "footer": "Péče v každém produktu"
+
+}
