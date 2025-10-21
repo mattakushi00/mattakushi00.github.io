@@ -57,13 +57,13 @@ function renderProduct(targetKey, dict) {
     listEl.innerHTML = feats
       .map((txt) => {
         if (txt === f1) {
-          return `<li class="features__item"> <img src="./assets/product-first-icon.svg" /> ${txt}</li>`;
+          return `<li class="features__item"> <a target="_blank" class="click" href="https://es.iverylab.com/weight-loss"><img src="./assets/product-first-icon.svg" /></a>  ${txt}</li>`;
         }
         if (txt === f2) {
-          return `<li class="features__item"> <img src="./assets/product-second-icon.svg" /> ${txt}</li>`;
+          return `<li class="features__item"> <a target="_blank" class="click" href="https://es.iverylab.com/weight-loss"><img src="./assets/product-second-icon.svg" /></a> ${txt}</li>`;
         }
         if (txt === f3) {
-          return `<li class="features__item"> <img src="./assets/product-third-icon.svg" /> ${txt}</li>`;
+          return `<li class="features__item"> <a target="_blank" class="click" href="https://es.iverylab.com/weight-loss"><img src="./assets/product-third-icon.svg" /></a> ${txt}</li>`;
         }
       })
       .join("");

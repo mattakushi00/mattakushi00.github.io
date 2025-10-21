@@ -1,6 +1,6 @@
 {
     "meta": {
-        "title": "Sada na hubnutí",
+        "title": "Pack para adelgazar",
         "description": "Описание"
     },
     "getConsultation": "Solicita una consulta",
@@ -38,17 +38,17 @@
     "w-loss-second": "Promueve la descomposición de la grasa.",
     "w-loss-third": "Reduce la retención de líquidos. Fácil de tomar: simplemente dilúyelo en cualquier bebida.",
 
-    "keto-title": "Přirozené spalování tuků je bezpečné pro srdce",
-    "keto-desc": "- kapsle s BHB a rostlinnými výtažky",
-    "keto-first": "Pomáhá tělu vstoupit do režimu spalování tuků (ketóza), zejména při snižování sacharidů ve stravě",
-    "keto-second": "Usnadňuje dodržování keto diety",
-    "keto-third": "Může fungovat jako alternativa k pozdní večeři",
+    "keto-title": "Quema de grasa natural, segura para el corazón",
+    "keto-desc": "cápsulas con BHB y extractos vegetales",
+    "keto-first": "Ayuda al organismo a entrar en modo quema de grasa (cetosis), especialmente al reducir los hidratos de carbono en la dieta",
+    "keto-second": "Facilita seguir la dieta cetogénica",
+    "keto-third": "Puede actuar como alternativa a una cena tardía",
 
-    "cannabis-title": "Snížená chuť k jídlu",
-    "cannabis-desc": "– konopný olej ve snadno stravitelné formě",
-    "cannabis-first": "Snižuje hladinu stresu",
-    "cannabis-second": "Zlepšuje spánek",
-    "cannabis-third": "Snižuje večerní chuť k jídlu",
+    "cannabis-title": "Disminución del apetito",
+    "cannabis-desc": "aceite de cannabis de fácil absorción",
+    "cannabis-first": "Reduce el nivel de estrés",
+    "cannabis-second": "Mejora el sueño",
+    "cannabis-third": "Reduce el apetito por la noche",
 
 
     "rail": {
@@ -110,6 +110,7 @@
     "comment-7": "Mi peso máximo fue de 101 kilos. Con el complejo W-Loss y Keto, logré bajarlo a 89 kilos en dos meses y ahora me es mucho más fácil moverme: antes caminaba 3 km, ahora camino 8 km al día. Quiero perder otros 15 kilos.",
     "comment-8": "Mi esposo, después de cumplir 65, empezó a acumular grasa abdominal. Lo comentamos con nuestro médico de cabecera, ya que padece enfermedades crónicas y sigue un tratamiento. Decidimos optar por un complejo de tres suplementos, lo cual es importante para evitar añadir más medicamentos. Los resultados han sido magníficos: ha desaparecido la barriga, está en forma y ahora ambos practicamos marcha rápida.",
 
-    "footer": "Péče v každém produktu"
+    "footer": "Cuidado en cada producto",
+    "martina": "Martina"
 
 }

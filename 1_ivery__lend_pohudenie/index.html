@@ -28,7 +28,9 @@
       </div>
 
       <div class="header__btn">
-        <a href="./" data-i18n="getConsultation"> Получить консультацию </a>
+        <a id="get-consultation-btn" href="#" data-i18n="getConsultation">
+          Получить консультацию
+        </a>
       </div>
     </header>
 
@@ -41,9 +43,15 @@
       </p>
 
       <img class="hero__arrow" src="./assets/hero-arrow.svg" alt="" />
-      <img class="hero__drugs" src="./assets//hero-drugs.png" alt="" />
+      <a
+        target="_blank"
+        class="click"
+        href="https://es.iverylab.com/weight-loss"
+      >
+        <img class="hero__drugs" src="./assets//hero-drugs.png" alt="" />
+      </a>
 
-      <button class="get-consultation-btn">
+      <button id="get-consultation-btn" class="get-consultation-btn">
         <p data-i18n="getConsultation">Получить консультацию</p>
         <img src="./assets/arrow-right.svg" alt="" />
       </button>
@@ -163,6 +171,8 @@
     </div>
 
     <section class="two-ways">
+      <img class="two-ways__bg" src="./assets/bg-2-ways.png" alt="" />
+      <div class="two-ways__bgCircle"></div>
       <div>
         <h3 class="two-ways__title" data-i18n="twoWays">
           Два способа — один результат
@@ -188,7 +198,11 @@
       </div>
 
       <div class="two-ways__woman">
-        <img src="./assets/two-ways-fon.png" alt="" />
+        <img
+          class="two-ways__woman_img"
+          src="./assets/two-ways-fon.png"
+          alt=""
+        />
       </div>
     </section>
 
@@ -270,7 +284,13 @@
 
     <section class="products-mobile">
       <div class="product">
-        <img class="product__img" src="./assets/w-loss.png" alt="" />
+        <a
+          target="_blank"
+          class="click"
+          href="https://es.iverylab.com/weight-loss"
+        >
+          <img class="product__img" src="./assets/w-loss.png" alt="" />
+        </a>
         <h4 data-i18n="w-loss-title" class="product__title">
           Лёгкий запуск обмена веществ с утра
         </h4>
@@ -308,7 +328,13 @@
       </div>
 
       <div class="product">
-        <img class="product__img" src="./assets/keto.png" alt="" />
+        <a
+          target="_blank"
+          class="click"
+          href="https://es.iverylab.com/weight-loss"
+        >
+          <img class="product__img" src="./assets/keto.png" alt="" />
+        </a>
         <h4 data-i18n="keto-title" class="product__title">
           Естественное жиросжигание – безопасно для сердца
         </h4>
@@ -346,7 +372,13 @@
       </div>
 
       <div class="product">
-        <img class="product__img" src="./assets/cannabis.png" alt="" />
+        <a
+          target="_blank"
+          class="click"
+          href="https://es.iverylab.com/weight-loss"
+        >
+          <img class="product__img" src="./assets/cannabis.png" alt="" />
+        </a>
         <h4 data-i18n="cannabis-title" class="product__title">
           Снижение аппетита
         </h4>
@@ -405,7 +437,13 @@
         <!-- Правая карточка -->
         <div class="card">
           <div class="card__media">
-            <img src="./assets/w-loss.png" alt="W-loss" class="card__img" />
+            <a
+              target="_blank"
+              class="click"
+              href="https://es.iverylab.com/weight-loss"
+            >
+              <img src="./assets/w-loss.png" alt="W-loss" class="card__img" />
+            </a>
           </div>
 
           <div class="card__content">
@@ -463,9 +501,21 @@
 
       <div class="admission-course__evening">
         <div class="admission-course__evening_circle">
-          <img src="./assets/w-loss.png" />
+          <a
+            target="_blank"
+            class="click"
+            href="https://es.iverylab.com/weight-loss"
+          >
+            <img src="./assets/w-loss.png" />
+          </a>
           <p>+</p>
-          <img src="./assets/keto.png" alt="" />
+          <a
+            target="_blank"
+            class="click"
+            href="https://es.iverylab.com/weight-loss"
+          >
+            <img src="./assets/keto.png" alt="" />
+          </a>
         </div>
         <p class="admission-course__title">
           <span data-i18n="admission-course-evening">Вечером – </span>
@@ -480,11 +530,17 @@
       </div>
 
       <div class="container admission-course__cannabis_circle">
-        <img src="./assets/cannabis.png" alt="" />
+        <a
+          target="_blank"
+          class="click"
+          href="https://es.iverylab.com/weight-loss"
+        >
+          <img src="./assets/cannabis.png" alt="" />
+        </a>
       </div>
 
       <div class="admission-course__btn">
-        <button class="get-consultation-btn">
+        <button id="get-consultation-btn" class="get-consultation-btn">
           <p data-i18n="getConsultation">Получить консультацию</p>
           <img src="./assets/arrow-right.svg" alt="" />
         </button>
@@ -492,6 +548,12 @@
     </section>
 
     <section class="admission-course-desktop">
+      <img
+        class="admission-course-desktop__bg"
+        src="./assets/bg-course.svg"
+        alt=""
+      />
+
       <h2 data-i18n="admission-course" class="admission-course-desktop__title">
         Курс приема:
       </h2>
@@ -537,20 +599,41 @@
       </div>
 
       <div class="admission-course-desktop__footer">
-        <div class="admission-course__morning_circle">-6 кг</div>
+        <div data-i18n="kg" class="admission-course__morning_circle">-6 кг</div>
 
         <div class="admission-course__evening_circle">
-          <img src="./assets/w-loss.png" />
+          <a
+            target="_blank"
+            class="click"
+            href="https://es.iverylab.com/weight-loss"
+          >
+            <img src="./assets/w-loss.png" />
+          </a>
           <p>+</p>
-          <img src="./assets/keto.png" alt="" />
+          <a
+            target="_blank"
+            class="click"
+            href="https://es.iverylab.com/weight-loss"
+          >
+            <img src="./assets/keto.png" alt="" />
+          </a>
         </div>
 
         <div class="admission-course__cannabis_circle">
-          <img src="./assets/cannabis.png" alt="" />
+          <a
+            target="_blank"
+            class="click"
+            href="https://es.iverylab.com/weight-loss"
+          >
+            <img src="./assets/cannabis.png" alt="" />
+          </a>
         </div>
       </div>
 
-      <button class="get-consultation-btn admission-course-btn">
+      <button
+        id="get-consultation-btn"
+        class="get-consultation-btn admission-course-btn"
+      >
         <p data-i18n="getConsultation">Получить консультацию</p>
         <img src="./assets/arrow-right.svg" alt="" />
       </button>
@@ -601,8 +684,10 @@
       </div>
 
       <div class="expert__doctor">
-        <h5 class="expert__name">Пол Вебер</h5>
-        <p class="expert__prof">Д.м.н., профессор, диетолог</p>
+        <h5 data-i18n="expert-name" class="expert__name">Пол Вебер</h5>
+        <p data-i18n="expert-prof" class="expert__prof">
+          Д.м.н., профессор, диетолог
+        </p>
       </div>
 
       <div class="expert__img">
@@ -613,7 +698,13 @@
     <section class="questions">
       <div class="questions__imgs">
         <img class="questions__body" src="./assets/body.png" alt="" />
-        <img class="questions__drags" src="./assets/hero-drugs.png" alt="" />
+        <a
+          target="_blank"
+          class="click"
+          href="https://es.iverylab.com/weight-loss"
+        >
+          <img class="questions__drags" src="./assets/hero-drugs.png" alt="" />
+        </a>
       </div>
 
       <div class="accordion">
@@ -779,7 +870,7 @@
     </section>
 
     <div class="benefits-btn">
-      <button class="get-consultation-btn">
+      <button id="get-consultation-btn" class="get-consultation-btn">
         <p data-i18n="getConsultation">Получить консультацию</p>
         <img src="./assets/arrow-right.svg" alt="" />
       </button>
@@ -940,7 +1031,7 @@
             <div class="review__author">
               <img class="review__author_man" src="./assets/com-6.png" alt="" />
               <img class="review__author_like" src="./assets/like.svg" alt="" />
-              Мартина, 63
+              Martina, 63
             </div>
           </article>
 
@@ -986,7 +1077,7 @@
             <div class="review__author">
               <img class="review__author_man" src="./assets/com-8.png" alt="" />
               <img class="review__author_like" src="./assets/like.svg" alt="" />
-              Паула, 62
+              Paula, 62
             </div>
           </article>
         </div>
@@ -997,7 +1088,7 @@
       </button>
 
       <div class="reviews__controls">
-        <button class="reviews__btn prev" aria-label="Предыдущий отзыв">
+        <button class="reviews__btn prev mob" aria-label="Предыдущий отзыв">
           <img src="./assets/arrow-left.svg" alt="" />
         </button>
 
@@ -1007,7 +1098,7 @@
           aria-label="Навигация по отзывам"
         ></div>
 
-        <button class="reviews__btn next" aria-label="Следующий отзыв">
+        <button class="reviews__btn next mob" aria-label="Следующий отзыв">
           <img src="./assets/arrow-slier-right.svg" alt="" />
         </button>
       </div>
@@ -1025,7 +1116,7 @@
         <img class="hero__arrow" src="./assets/hero-arrow.svg" alt="" />
         <img class="hero__drugs" src="./assets//hero-drugs.png" alt="" />
 
-        <button class="get-consultation-btn">
+        <button id="get-consultation-btn" class="get-consultation-btn">
           <p data-i18n="getConsultation">Получить консультацию</p>
           <img src="./assets/arrow-right.svg" alt="" />
         </button>
@@ -1042,8 +1133,10 @@
       </div>
     </section>
 
+    <script src="./js/lang.js" defer></script>
     <script src="./js/i18n.js" defer></script>
     <script src="./js/index.js" defer></script>
     <script src="./js/slider.js" defer></script>
+    <script src="./js/accordion.js" defer></script>
   </body>
 </html>
