@@ -509,8 +509,6 @@ const translate = {
   ]
 }
 
-console.log(browserLangFormated)
-console.log(targetLang)
 const targetTranslateArray = targetLang ? [...translate[targetLang]] : []
 const format = string => string ? string.trim().toLowerCase() : undefined
 
