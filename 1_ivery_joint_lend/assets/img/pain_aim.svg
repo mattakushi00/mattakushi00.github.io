@@ -1,0 +1,27 @@
+<svg width="674" height="674" viewBox="0 0 674 674" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.5" filter="url(#filter0_f_2016_2)">
+<circle cx="337" cy="337" r="237" fill="url(#paint0_radial_2016_2)"/>
+</g>
+<path d="M337.929 636.144C501.387 636.144 633.895 503.672 633.895 340.259C633.895 176.847 501.387 44.3751 337.929 44.3751C174.472 44.3751 41.9634 176.847 41.9634 340.259C41.9634 503.672 174.472 636.144 337.929 636.144Z" stroke="white" stroke-opacity="0.6" stroke-width="1.4" stroke-miterlimit="10"/>
+<path d="M337.929 514.997C434.461 514.997 512.715 436.765 512.715 340.26C512.715 243.755 434.461 165.522 337.929 165.522C241.397 165.522 163.143 243.755 163.143 340.26C163.143 436.765 241.397 514.997 337.929 514.997Z" stroke="white" stroke-opacity="0.6" stroke-width="1.4" stroke-miterlimit="10"/>
+<path d="M337.929 411.944C377.53 411.944 409.633 379.85 409.633 340.259C409.633 300.669 377.53 268.574 337.929 268.574C298.327 268.574 266.224 300.669 266.224 340.259C266.224 379.85 298.327 411.944 337.929 411.944Z" stroke="white" stroke-opacity="0.6" stroke-width="1.4" stroke-miterlimit="10"/>
+<mask id="path-5-inside-1_2016_2" fill="white">
+<path d="M13 337.937V338.876L662.571 338.876V337.937L13 337.937Z"/>
+</mask>
+<path d="M13 338.876H11.6V340.276H13V338.876ZM13 337.937V336.537H11.6V337.937H13ZM662.571 337.937H663.971V336.537H662.571V337.937ZM662.571 338.876V340.276H663.971V338.876H662.571ZM13 338.876H14.4V337.937H13H11.6V338.876H13ZM13 337.937V339.337L662.571 339.337V337.937V336.537L13 336.537V337.937ZM662.571 337.937H661.171V338.876H662.571H663.971V337.937H662.571ZM662.571 338.876V337.476L13 337.476V338.876V340.276L662.571 340.276V338.876Z" fill="white" fill-opacity="0.6" mask="url(#path-5-inside-1_2016_2)"/>
+<mask id="path-7-inside-2_2016_2" fill="white">
+<path d="M338.552 15H337.613V658H338.552V15Z"/>
+</mask>
+<path d="M337.613 15V13.6H336.213V15H337.613ZM338.552 15H339.952V13.6H338.552V15ZM338.552 658V659.4H339.952V658H338.552ZM337.613 658H336.213V659.4H337.613V658ZM337.613 15V16.4H338.552V15V13.6H337.613V15ZM338.552 15H337.152V658H338.552H339.952V15H338.552ZM338.552 658V656.6H337.613V658V659.4H338.552V658ZM337.613 658H339.013V15H337.613H336.213V658H337.613Z" fill="white" fill-opacity="0.6" mask="url(#path-7-inside-2_2016_2)"/>
+<defs>
+<filter id="filter0_f_2016_2" x="0" y="0" width="674" height="674" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_2016_2"/>
+</filter>
+<radialGradient id="paint0_radial_2016_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(337 315.839) rotate(90) scale(258.161)">
+<stop offset="0.774038" stop-color="#F74254"/>
+<stop offset="0.971154" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
