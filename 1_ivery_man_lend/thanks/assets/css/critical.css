@@ -173,12 +173,12 @@ body {
     }
 
     .title {
-        font-size: 4rem;
+        font-size: 3.125rem;
     }
 
     .subtitle {
         font-size: 1.875rem;
-        margin-top: -28px;
+        margin-top: -15px;
         margin-bottom: 20px;
         max-width: 285px;
     }
