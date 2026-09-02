@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>newspaper</title>
+    <link type="image/jpg" href="assets/img/favicon.jpg" rel="icon">
+    <meta name="description" content="newspaper">
+    <link as="image" fetchpriority="high" href="assets/img/bg.webp" rel="preload">
+    <link as="image" fetchpriority="high" href="assets/img/poster1.webp" rel="preload">
+    <link type="font/woff2" as="font" crossorigin="anonymous" href="assets/fonts/Montserrat/Montserrat-Regular.woff2" rel="preload">
+
+    <!--critical css-->
+    <style></style>
+
+    <link as="style" href="assets/css/swiper-bundle.min.css" onload="this.rel='stylesheet'" rel="preload">
+    <noscript>
+        <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
+    </noscript>
+
+    <link as="style" href="assets/css/critical.css" onload="this.rel='stylesheet'" rel="preload">
+    <noscript>
+        <link href="assets/css/critical.css" rel="stylesheet">
+    </noscript>
+
+</head>
+<body>
+<main class="wrap">
+    <div class="face">
+
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__card">
+                    <h1 class="header__title"><span class="header__title-top">Выберите газету</span>
+                        <span class="header__title-big">и получите</span> <b>подарок</b></h1>
+                    <p class="header__subtitle"><b>75€</b> <span>на продукты для здоровья</span></p>
+                </div>
+                <p class="header__text">После открытия газеты наш оператор свяжется с вами в ближайшее время</p>
+                <div class="header__border">
+                    <img src="assets/img/gift.webp" width="62" height="62" alt="gift" class="header__gift">
+                    <div class="header__border-left">
+                        <p class="header__border-title">Подарок закрепится за вами</p>
+                        <p class="header__border-text">Просто выберите, что вам ближе</p>
+                    </div>
+                </div>
+                <img src="assets/img/arrowDown.svg" width="35" height="35" alt="arrowDown" class="header__arrow">
+            </div>
+        </header>
+
+        <section class="main">
+            <div class="main__container container">
+                <h2 class="main__title">Какая тема вам интереснее?</h2>
+                <div class="main__list">
+                    <div class="main__item">
+                        <img src="assets/img/poster1.webp" width="400" height="566" alt="poster" class="main__img" fetchpriority="high">
+                        <div class="main__button">
+                            <img src="assets/img/gift.webp" width="62" height="62" alt="gift" class="main__gift">
+                            <p class="main__button-text">Открыть и получить подарок</p>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <img src="assets/img/poster2.webp" width="400" height="566" alt="poster" class="main__img">
+                        <div class="main__button">
+                            <img src="assets/img/gift.webp" width="62" height="62" alt="gift" class="main__gift">
+                            <p class="main__button-text">Открыть и получить подарок</p>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <img src="assets/img/poster3.webp" width="400" height="566" alt="poster" class="main__img">
+                        <div class="main__button">
+                            <img src="assets/img/gift.webp" width="62" height="62" alt="gift" class="main__gift">
+                            <p class="main__button-text">Открыть и получить подарок</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <p class="footer__text"><span>Ваш</span> <span class="footer__text-color">подарок</span>
+                    <span>уже ждет вас</span></p>
+            </div>
+        </footer>
+    </div>
+
+    <dialog class="dialog">
+        <div class="dialog__card">
+            <button type="button" class="dialog__close">+</button>
+            <img src="assets/img/gift_modal.webp" width="140" height="140" class="dialog__img" alt="gift">
+            <h3 class="dialog__title">Ваш подарок получен!</h3>
+            <p class="dialog__subtitle"><span>Вы открыли газету</span> <b class="dialog__name">«Жизнь в гармонии»</b></p>
+            <p class="dialog__text">Подарок закреплён за вами. Наш оператор свяжется с вами в ближайшее время. Ничего дополнительно делать не нужно.</p>
+            <button type="button" class="dialog__btn">Продолжить чтение газеты</button>
+        </div>
+    </dialog>
+
+    <div class="slider">
+        <div class="slider__name">«Разговор с терапевтом»</div>
+        <button class="slider__btn slider__btn_prev"></button>
+        <div class="swiper slider__list">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/img/poster1.webp" width="400" height="566" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/poster2.webp" width="400" height="566" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/poster3.webp" width="400" height="566" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+            </div>
+        </div>
+        <button class="slider__btn slider__btn_next"></button>
+    </div>
+
+    <div class="slider">
+        <div class="slider__name">«Новости науки»</div>
+        <button class="slider__btn slider__btn_prev"></button>
+        <div class="swiper slider__list">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/img/poster2.webp" width="400" height="566" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/poster1.webp" width="400" height="566" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/poster3.webp" width="400" height="566" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+            </div>
+        </div>
+        <button class="slider__btn slider__btn_next"></button>
+    </div>
+
+    <div class="slider">
+        <div class="slider__name">«Жизнь в гармонии»</div>
+        <button class="slider__btn slider__btn_prev"></button>
+        <div class="swiper slider__list">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/img/poster3.webp" width="400" height="566" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/poster2.webp" width="400" height="566" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/poster1.webp" width="400" height="566" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+            </div>
+        </div>
+        <button class="slider__btn slider__btn_next"></button>
+    </div>
+
+
+</main>
+<script src="assets/js/animation.js" defer></script>
+<script src="assets/js/modal.js" defer></script>
+<script src="assets/js/swiper-bundle14.0.5.min.js" defer></script>
+<script src="assets/js/slider.js" defer></script>
+</body>
+</html>
