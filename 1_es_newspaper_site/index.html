@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>newspaper</title>
+    <link href="assets/img/favicon.jpg" rel="icon" type="image/jpg">
+    <meta content="newspaper" name="description">
+    <link as="image" fetchpriority="high" href="assets/img/bg.webp" rel="preload">
+    <link as="image" fetchpriority="high" href="assets/img/newspaperT1.webp" rel="preload">
+    <link as="font" crossorigin="anonymous" href="assets/fonts/Montserrat/Montserrat-Regular.woff2" rel="preload" type="font/woff2">
+
+    <!--critical css-->
+    <style></style>
+
+    <link as="style" href="assets/css/swiper-bundle.min.css" onload="this.rel='stylesheet'" rel="preload">
+    <noscript>
+        <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
+    </noscript>
+
+    <link as="style" href="assets/css/critical.css" onload="this.rel='stylesheet'" rel="preload">
+    <noscript>
+        <link href="assets/css/critical.css" rel="stylesheet">
+    </noscript>
+
+</head>
+<body>
+<main class="wrap">
+    <div class="face">
+
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__card">
+                    <h1 class="header__title"><span>Elija un periódico y reciba</span> <b>UN REGALO</b></h1>
+                    <p class="header__subtitle animation-fadeIn"><b>85 €</b> <span>en productos para la salud</span></p>
+                </div>
+                <p class="header__text animation-fadeIn">Una vez abierto el periódico, nuestro operador se pondrá en contacto con usted en breve.</p>
+                <div class="header__border">
+                    <img src="assets/img/gift.webp" width="62" height="62" class="header__gift" alt="gift">
+                    <div class="header__border-left">
+                        <p class="header__border-title animation-fadeIn">El regalo quedará reservado para usted</p>
+                        <p class="header__border-text animation-fadeIn">Solo tiene que elegir lo que más le guste.</p>
+                    </div>
+                </div>
+                <img src="assets/img/arrowDown.svg" width="35" height="35" class="header__arrow" alt="arrowDown">
+            </div>
+        </header>
+
+        <section class="main">
+            <div class="main__container container">
+                <h2 class="main__title">¿Qué tema le interesa más?</h2>
+                <div class="main__list">
+                    <div class="main__item">
+                        <img fetchpriority="high" src="assets/img/newspaperT1.webp" width="596" height="842" class="main__img" alt="poster">
+                        <div class="main__button">
+                            <img src="assets/img/gift.webp" width="62" height="62" class="main__gift" alt="gift">
+                            <p class="main__button-text">Abra y reciba el regalo</p>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <img src="assets/img/newspaperS1.webp" width="596" height="842" class="main__img" alt="poster">
+                        <div class="main__button">
+                            <img src="assets/img/gift.webp" width="62" height="62" class="main__gift" alt="gift">
+                            <p class="main__button-text">Abra y reciba el regalo</p>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <img src="assets/img/newspaperH1.webp" width="596" height="842" class="main__img" alt="poster">
+                        <div class="main__button">
+                            <img src="assets/img/gift.webp" width="62" height="62" class="main__gift" alt="gift">
+                            <p class="main__button-text">Abra y reciba el regalo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <p class="footer__text animation-fadeIn"><span>¡Su</span> <span class="footer__text-color">UN REGALO</span>
+                    <span>ya le espera!</span></p>
+            </div>
+        </footer>
+    </div>
+
+    <dialog class="dialog">
+        <div class="dialog__card">
+            <img src="assets/img/gift_modal.webp" width="140" height="140" class="dialog__img" alt="gift">
+            <h3 class="dialog__title" style="opacity: 0;">¡Su regalo ya es suyo!</h3>
+            <p class="dialog__subtitle" style="opacity: 0;"><span>Ha abierto el periódico</span> <b class="dialog__name">«Vida en armonía»</b>
+            </p>
+            <p class="dialog__text" style="opacity: 0;">El regalo ha quedado reservado para usted. Nuestro operador se pondrá en contacto con usted en breve. No tiene que hacer nada más.</p>
+            <button type="button" class="dialog__btn">Seguir leyendo el periódico</button>
+        </div>
+    </dialog>
+
+    <div class="slider">
+        <div class="slider__name">«Conversación con el médico»</div>
+        <button class="slider__btn slider__btn_prev"></button>
+        <div class="swiper slider__list">
+            <div class="swiper-wrapper">
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperT1.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperT2.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperT3.webp" width="597" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperT4.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperT5.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperT6.webp" width="597" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperT7.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperT8.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+
+            </div>
+        </div>
+        <button class="slider__btn slider__btn_next"></button>
+    </div>
+
+    <div class="slider">
+        <div class="slider__name">«Noticias científicas»</div>
+        <button class="slider__btn slider__btn_prev"></button>
+        <div class="swiper slider__list">
+            <div class="swiper-wrapper">
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperS1.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperS2.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperS3.webp" width="597" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperS4.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperS5.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperS6.webp" width="597" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperS7.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperS8.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+
+            </div>
+        </div>
+        <button class="slider__btn slider__btn_next"></button>
+    </div>
+
+    <div class="slider">
+        <div class="slider__name">«Vida en armonía»</div>
+        <button class="slider__btn slider__btn_prev"></button>
+        <div class="swiper slider__list">
+            <div class="swiper-wrapper">
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperH1.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperH2.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperH3.webp" width="597" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperH4.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperH5.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperH6.webp" width="597" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperH7.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+                <div class="slider__item swiper-slide">
+                    <img src="assets/img/newspaperH8.webp" width="596" height="842" class="slider__img" alt="newspaper page" loading="lazy">
+                </div>
+
+            </div>
+        </div>
+        <button class="slider__btn slider__btn_next"></button>
+    </div>
+
+
+</main>
+<script defer src="assets/js/animation.js"></script>
+<script defer src="assets/js/modal.js"></script>
+<script defer src="assets/js/swiper-bundle14.0.5.min.js"></script>
+<script defer src="assets/js/slider.js"></script>
+</body>
+</html>
