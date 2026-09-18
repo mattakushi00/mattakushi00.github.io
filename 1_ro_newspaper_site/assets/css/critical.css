@@ -528,9 +528,11 @@ button {
 }
 
 .slider__list {
+    pointer-events: none;
     max-width: 596px;
     padding: 100px 0;
 }
+
 
 .slider__item {
     background: var(--white);
@@ -769,6 +771,10 @@ button {
     .slider__btn_next {
         right: 0;
         transform: translate(0, -50%) rotate(180deg);
+    }
+
+    .dialog__title {
+        font-size: 1.75rem;
     }
 }
 

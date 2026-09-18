@@ -528,9 +528,11 @@ button {
 }
 
 .slider__list {
+    pointer-events: none;
     max-width: 596px;
     padding: 100px 0;
 }
+
 
 .slider__item {
     background: var(--white);
@@ -715,11 +717,13 @@ button {
     }
 
     .header__subtitle {
+        text-wrap: balance;
         font-size: 1.25rem;
         padding: 11px 10px 12px;
     }
 
     .header__text {
+        text-wrap: balance;
         font-size: 1rem;
         margin-bottom: 10px;
     }

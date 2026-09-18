@@ -3,8 +3,9 @@
         slidesPerView: 1,
         lazyPreloadPrevNext: 0,
         spaceBetween: 8,
-        allowTouchMove: false,
         grabCursor: true,
+        allowTouchMove: false,
+
         effect: 'creative',
         creativeEffect: {
             prev: {

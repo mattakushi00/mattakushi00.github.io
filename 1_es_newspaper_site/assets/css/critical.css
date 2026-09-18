@@ -528,6 +528,7 @@ button {
 }
 
 .slider__list {
+	pointer-events: none;
 	max-width: 596px;
 	padding: 100px 0;
 }

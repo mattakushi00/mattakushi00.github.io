@@ -3,9 +3,9 @@
         slidesPerView: 1,
         lazyPreloadPrevNext: 0,
         spaceBetween: 8,
-        edgeSwipeDetection: true,
-        touchReleaseOnEdges: true,
         grabCursor: true,
+        allowTouchMove: false,
+
         effect: 'creative',
         creativeEffect: {
             prev: {
